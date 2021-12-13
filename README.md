@@ -1,2 +1,3 @@
 # norvoc
-Vocabularies from the Norwegian Digitalization Agency
+
+Vocabularies maintained by [the Norwegian Digitalization Agency](https://digdir.no/)

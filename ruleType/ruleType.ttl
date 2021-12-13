@@ -1,0 +1,60 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+
+### Dette kontrollerte vokabularet / This Controlled Vocabulary / skos:ConceptScheme:
+<https://data.norge.no/vocabulary/ruleType> a skos:ConceptScheme ;
+  xkos:numberOfLevels "1"^^xsd:positiveInteger ; # kun ett nivå
+  dct:identifier "https://data.norge.no/vocabulary/ruleType"^^xsd:anyURI ; # identifikator
+  dct:title "Rule Type"@en , "Regeltype"@nb ; # navn
+  dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827> ; # utgiver Digdir
+  dct:description # beskrivelse
+    "This controlled vocabulary contains some predefined rule types"@en ,
+    "Dette kontrollerte vokabularet inneholder noen predefinerte regeltyper"@nb ;
+  uneskos:contains # inneholder følgende kategorier
+    <https://data.norge.no/vocabulary/ruleType#ruleForDisclosure> ,
+    <https://data.norge.no/vocabulary/ruleType#ruleForNonDisclosure> ,
+    <https://data.norge.no/vocabulary/ruleType#ruleForDataProcessing>
+    ;
+#### følgende foreløpig kommentert bort, gir valideringsfeil siden EU-listene er ikke i samsvar med XKOS-AP-NO
+#  dct:type
+#    <http://publications.europa.eu/resource/authority/dataset-type/CODE_LIST> ,
+#    <http://publications.europa.eu/resource/authority/dataset-type/TAXONOMY> ;
+   .
+
+### Predefinerte typer / Predefined types / skos:Concept:
+
+<https://data.norge.no/vocabulary/ruleType#ruleForDisclosure> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/ruleType#ruleForDisclosure"^^xsd:anyURI ; # identifikator
+  skos:prefLabel # anbefalt term
+    "rule for disclosure"@en ,
+    "utleveringsregel"@nb ;
+  skos:definition # definisjon - bør flyttes ut til begrepskatalogen som pekes til herfra
+    "regel som regulerer utlevering av en ressurs (f.eks. et datasett)"@nb ,
+    "rule that regulates disclosure of a resource (e.g. a dataset)"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/ruleType> ;
+  .
+
+<https://data.norge.no/vocabulary/ruleType#ruleForNonDisclosure> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/ruleType#ruleForNonDisclosure"^^xsd:anyURI ; # identifikator
+  skos:prefLabel # anbefalt term
+    "rule for non-disclosure"@en ,
+    "skjermingsregel"@nb ;
+  skos:definition # definisjon - bør flyttes ut til begrepskatalogen som pekes til herfra
+    "regel som regulerer skjerming av en ressurs (f.eks. et datasett)"@nb ,
+    "rule that regulates non-disclosure of a resource (e.g. a dataset)"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/ruleType> ;
+  .
+
+<https://data.norge.no/vocabulary/ruleType#ruleForDataProcessing> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/ruleType#ruleForDataProcessing"^^xsd:anyURI ; # identifikator
+  skos:prefLabel # anbefalt term
+    "rule for data processing"@en ,
+    "behandlingsgrunnlag"@nb ;
+  skos:definition # definisjon - bør flyttes ut til begrepskatalogen som pekes til herfra
+    "regel som regulerer behandling av data, spesielt personopplysninger"@nb ,
+    "rule that regulates processing of data, especially personal data"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/ruleType> ;
+  .
