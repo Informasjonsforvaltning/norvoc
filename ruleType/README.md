@@ -2,4 +2,4 @@
 
 Controlled vocabulary for predefined rule types
 
-[_Norwegian Digitalization Agency / Digitaliseringsdirektoratet](https://digdir.no/)
+[_Norwegian Digitalization Agency / Digitaliseringsdirektoratet_](https://digdir.no/)
