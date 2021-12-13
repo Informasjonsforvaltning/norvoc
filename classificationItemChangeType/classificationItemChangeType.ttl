@@ -1,0 +1,105 @@
+# ---------------------
+# Kontrollert vokabular for Endringstyper, ItemChangeType
+#  - både som et eksempel på bruk av XKOS-AP-NO, og også med selve vokabularet definert
+#
+# Status 2021-11-23: validert korrekt mot https://github.com/Informasjonsforvaltning/xkos-ap-no/shacl/xkos-ap-no-shacl-0x.ttl
+# ---------------------
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> .
+
+# Vokabularet Item Change Type (instans av skos:ConceptScheme):
+
+<https://data.norge.no/vocabulary/classificationItemChangeType> a skos:ConceptScheme ;
+  xkos:numberOfLevels "1"^^xsd:positiveInteger ; # antall nivå
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType"^^xsd:anyURI ; # identifikator
+  dct:title "Kategoriendringstype"@nb , "Classification Items Change Types"@en ; # navn
+  dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827> ; # utgiver = Digdir
+  uneskos:contains # inneholder kategorier
+    <https://data.norge.no/vocabulary/classificationItemChangeType#itemDeletion>,
+    <https://data.norge.no/vocabulary/classificationItemChangeType#itemCreation> ,
+    <https://data.norge.no/vocabulary/classificationItemChangeType#itemMerging> ,
+    <https://data.norge.no/vocabulary/classificationItemChangeType#itemTakeOver> ,
+    <https://data.norge.no/vocabulary/classificationItemChangeType#itemBreakdown> ,
+    <https://data.norge.no/vocabulary/classificationItemChangeType#itemSplitOff> ,
+    <https://data.norge.no/vocabulary/classificationItemChangeType#notationTransfer> ,
+    <https://data.norge.no/vocabulary/classificationItemChangeType#codeChange> ,
+    <https://data.norge.no/vocabulary/classificationItemChangeType#nameChange> ;
+#### følgende foreløpig kommentert bort, gir valideringsfeil siden EU-listene er ikke i samsvar med XKOS-AP-NO
+#  dct:type
+#    <http://publications.europa.eu/resource/authority/dataset-type/CODE_LIST> ,
+#    <http://publications.europa.eu/resource/authority/dataset-type/TAXONOMY> ;
+  .
+
+# Kategoriene (instanser av skos:Concept):
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#itemDeletion> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#itemDeletion"^^xsd:anyURI ; # identifikator
+  skos:notation "1" ; # kode
+  skos:prefLabel "sletting"@nb , "deletion"@en ; # anbefalt kategorinavn
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#itemCreation> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#itemCreation" ;
+  skos:notation "2" ;
+  skos:prefLabel "oppretting"@nb , "creation"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#itemMerging> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#itemMerging" ;
+  skos:notation "3" ;
+  skos:prefLabel "sammenslåing"@nb , "merging"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#itemTakeOver> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#itemTakeOver" ;
+  skos:notation "4" ;
+  skos:prefLabel "overtakelse"@nb , "take-over"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#itemBreakdown> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#itemBreakdown" ;
+  skos:notation "5" ;
+  skos:prefLabel "oppsplitting"@nb , "breakdown"@en ;
+  owl:inverseOf xkosno:ItemMerging ;
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#itemSplitOff> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#itemSplitOff" ;
+  skos:notation "6" ;
+  skos:prefLabel "avspalting"@nb , "split off"@en ;
+  owl:inverseOf xkosno:ItemTakeOver ;
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#notationTransfer> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#notationTransfer" ;
+  skos:notation "7" ;
+  skos:prefLabel "overføring"@nb , "transfer"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#codeChange> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#codeChange" ;
+  skos:notation "8" ;
+  skos:prefLabel "kodeendring"@nb , "code change"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
+
+<https://data.norge.no/vocabulary/classificationItemChangeType#nameChange> a skos:Concept ;
+  dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#cameChange" ;
+  skos:notation "9" ;
+  skos:prefLabel "kodetekstendring"@nb , "name change"@en ;
+  skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
+  .
