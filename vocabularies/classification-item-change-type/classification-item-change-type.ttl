@@ -100,6 +100,6 @@
 <https://data.norge.no/vocabulary/classificationItemChangeType#nameChange> a skos:Concept ;
   dct:identifier "https://data.norge.no/vocabulary/classificationItemChangeType#cameChange" ;
   skos:notation "9" ;
-  skos:prefLabel "kodetekstendring"@nb , "name change"@en ;
+  skos:prefLabel "kategorinavnendring"@nb , "name change"@en ;
   skos:inScheme <https://data.norge.no/vocabulary/classificationItemChangeType> ; # er i klassifikasjon
   .
