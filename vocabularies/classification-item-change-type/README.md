@@ -1,4 +1,4 @@
-# norvoc | vocabularies | classificationItemChangeType
+# norvoc | vocabularies | classification-item-change-type
 
 Controlled vocabulary for predefined Classification Item Change Types
 
