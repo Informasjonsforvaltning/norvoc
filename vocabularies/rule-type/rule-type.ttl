@@ -20,7 +20,7 @@
    dct:identifier "http://data.norge.no/vocabulary/rule-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "(Under development) This controlled vocabulary contains some predefined rule types"@en,
-       "(Under utvikling) Dette kontrollerte vokabularet inneholder noen predefinerte regeltyper"@no;
+       "(Under utvikling) Dette kontrollerte vokabularet inneholder noen predefinerte regeltyper"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/rule-type#data-processing-rules>,
        <http://data.norge.no/vocabulary/rule-type#rule-for-disclosure>,
        <http://data.norge.no/vocabulary/rule-type#rule-for-non-disclosure>,
@@ -79,4 +79,4 @@
    dct:identifier "http://data.norge.no/vocabulary/=rule-type#case-management-rules"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-01-28 19:22:02
+#### End of the file, 2022-01-29 19:17:45
