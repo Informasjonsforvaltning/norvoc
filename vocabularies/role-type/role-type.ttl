@@ -14,7 +14,7 @@
 @base <http://data.norge.no/vocabulary/> . 
 
 <http://data.norge.no/vocabulary/role-type> rdf:type skos:ConceptScheme;
-   xkos:numberOfLevels "2"^^xsd:positiveInteger;
+   xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Role type"@en,
        "Rolletype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/role-type"^^xsd:anyURI;
@@ -66,4 +66,4 @@
    dct:identifier "http://data.norge.no/vocabulary/role-type#data-provider"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-01-29 19:03:33
+#### End of the file, 2022-01-29 19:10:40
