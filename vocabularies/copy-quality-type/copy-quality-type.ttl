@@ -16,17 +16,19 @@
 <http://data.norge.no/vocabulary/copy-quality-type> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Copy quality type"@en,
-       "Kopieringskvalitetstype"@nb;
+       "Kopitype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/copy-quality-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   uneskos:contains <http://data.norge.no/vocabulary/copy-quality-type#attested-copy>;
+   dct:description "(Under development) Controlled vocabulary with predefined copy quality types"@en,
+       "(Under utvikling) Kontrollert vokabular med predefinerte kopityper"@nb;
+   uneskos:contains <http://data.norge.no/vocabulary/copy-quality-type#certified-copy>;
    .
  
-<http://data.norge.no/vocabulary/copy-quality-type#attested-copy> rdf:type skos:Concept;
-   skos:prefLabel "attested copy"@en,
+<http://data.norge.no/vocabulary/copy-quality-type#certified-copy> rdf:type skos:Concept;
+   skos:prefLabel "certified copy"@en,
        "attestert kopi"@nb;
    skos:inScheme <http://data.norge.no/vocabulary/copy-quality-type>;
-   dct:identifier "http://data.norge.no/vocabulary/copy-quality-type#attested-copy"^^xsd:anyURI;
+   dct:identifier "http://data.norge.no/vocabulary/copy-quality-type#certified-copy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-01-31 07:10:44
+#### End of the file, 2022-01-31 11:18:23
