@@ -21,6 +21,7 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    uneskos:contains <http://data.norge.no/vocabulary/event-type#administrative-decision-made>,
        <http://data.norge.no/vocabulary/event-type#data-changed>;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
 <http://data.norge.no/vocabulary/event-type#administrative-decision-made> rdf:type skos:Concept;
@@ -37,4 +38,4 @@
    dct:identifier "http://data.norge.no/vocabulary/event-type#data-changed"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-01-30 18:04:35
+#### End of the file, 2022-01-31 14:43:37
