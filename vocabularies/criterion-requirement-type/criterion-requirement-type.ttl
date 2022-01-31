@@ -19,7 +19,7 @@
        "Vilkårstype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/criterion-requirement-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "(Under development) A controlled vocabulary with predefined criterion requirement types"@en,
+   dct:description "(Under development) Controlled vocabulary with predefined criterion requirement types"@en,
        "(Under utvikling) Kontrollert vokabular med predefinerte vilkårstype"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/criterion-requirement-type#age>,
        <http://data.norge.no/vocabulary/criterion-requirement-type#attestation>,
@@ -29,6 +29,7 @@
        <http://data.norge.no/vocabulary/criterion-requirement-type#position>,
        <http://data.norge.no/vocabulary/criterion-requirement-type#education>,
        <http://data.norge.no/vocabulary/criterion-requirement-type#economy>;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
 <http://data.norge.no/vocabulary/criterion-requirement-type#age> rdf:type skos:Concept;
@@ -87,4 +88,4 @@
    dct:identifier "http://data.norge.no/vocabulary/criterion-requirement-type#economy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-01-31 06:59:48
+#### End of the file, 2022-01-31 13:30:23
