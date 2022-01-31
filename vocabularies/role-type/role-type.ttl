@@ -20,7 +20,7 @@
    dct:identifier "http://data.norge.no/vocabulary/role-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "(Under development) This controlled vocabulary contains some predefined role types"@en,
-       "(Under utvikling) Dette kontrollerte vokabularet inneholder noen predefinerte rolletyper"@no;
+       "(Under utvikling) Dette kontrollerte vokabularet inneholder noen predefinerte rolletyper"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/role-type#service-producer>,
        <http://data.norge.no/vocabulary/role-type#service-provider>,
        <http://data.norge.no/vocabulary/role-type#end-user>,
@@ -29,6 +29,7 @@
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
 <http://data.norge.no/vocabulary/role-type#service-producer> rdf:type skos:Concept;
@@ -66,4 +67,4 @@
    dct:identifier "http://data.norge.no/vocabulary/role-type#data-provider"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-01-29 19:10:40
+#### End of the file, 2022-01-31 15:04:00
