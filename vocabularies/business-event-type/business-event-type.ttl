@@ -19,6 +19,8 @@
        "Virksomhetshendelsestype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/business-event-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
+   dct:description "(Under development) Controlled vocabulary with predefined Business event types"@en,
+       "(Under utvikling) Kontrollert vokabular med predefinerte Virksomhetshendelsestyper"@nb;
    .
  
-#### End of the file, 2022-01-31 07:31:46
+#### End of the file, 2022-01-31 12:11:00
