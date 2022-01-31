@@ -20,6 +20,7 @@
    dct:identifier "http://data.norge.no/vocabulary/level-of-certification"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    uneskos:contains <http://data.norge.no/vocabulary/level-of-certification#legislation>;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
 <http://data.norge.no/vocabulary/level-of-certification#legislation> rdf:type skos:Concept;
@@ -29,4 +30,4 @@
    dct:identifier "http://data.norge.no/vocabulary/level-of-certification#legislation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-01-30 19:47:56
+#### End of the file, 2022-01-31 14:53:02
