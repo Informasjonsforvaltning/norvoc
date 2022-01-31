@@ -21,6 +21,7 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "(Under development) A controlled vocabulary with predefined legal resource types"@en,
        "(Under utvikling) Kontrollert vokabular med predefinerte regulativ ressurs type"@nb;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-01-30 18:28:21
+#### End of the file, 2022-01-31 14:50:19
