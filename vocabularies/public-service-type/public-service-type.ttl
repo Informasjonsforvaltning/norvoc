@@ -21,6 +21,7 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "(Under development) A controlled vocabulary with predefined public service types"@en,
        "(Under utvikling) Kontrollert vokabular med predefinerte offentlig tjeneste typer"@nb;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-01-30 18:20:20
+#### End of the file, 2022-01-31 15:00:25
