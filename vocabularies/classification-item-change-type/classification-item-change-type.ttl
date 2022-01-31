@@ -33,6 +33,7 @@
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-28"^^xsd:date;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
 <http://data.norge.no/vocabulary/classification-item-change-type#item-deletion> rdf:type skos:Concept;
@@ -116,4 +117,4 @@
    skos:altLabel "category name change"@en;
    .
  
-#### End of the file, 2022-01-28 18:04:41
+#### End of the file, 2022-01-31 13:39:34
