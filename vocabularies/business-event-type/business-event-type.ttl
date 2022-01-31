@@ -21,6 +21,7 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "(Under development) Controlled vocabulary with predefined Business event types"@en,
        "(Under utvikling) Kontrollert vokabular med predefinerte Virksomhetshendelsestyper"@nb;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-01-31 12:11:00
+#### End of the file, 2022-01-31 13:35:25
