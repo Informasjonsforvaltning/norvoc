@@ -21,7 +21,7 @@
    dct:identifier "http://data.norge.no/vocabulary/role-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined role types"@en,
-       "Kontrollerte vokabular med predefinerte rolletyper"@nb;
+       "Kontrollert vokabular med predefinerte rolletyper"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/role-type#service-producer>,
        <http://data.norge.no/vocabulary/role-type#service-provider>,
        <http://data.norge.no/vocabulary/role-type#end-user>,
@@ -68,4 +68,4 @@
    dct:identifier "http://data.norge.no/vocabulary/role-type#data-provider"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 10:56:07
+#### End of the file, 2022-02-01 13:49:56
