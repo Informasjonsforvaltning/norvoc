@@ -20,8 +20,8 @@
        "Kopitype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/copy-quality-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "(Under development) Controlled vocabulary with predefined copy quality types"@en,
-       "(Under utvikling) Kontrollert vokabular med predefinerte kopityper"@nb;
+   dct:description "Controlled vocabulary with predefined copy quality types"@en,
+       "Kontrollert vokabular med predefinerte kopityper"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/copy-quality-type#certified-copy>;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
@@ -33,4 +33,4 @@
    dct:identifier "http://data.norge.no/vocabulary/copy-quality-type#certified-copy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 09:46:21
+#### End of the file, 2022-02-01 12:40:21
