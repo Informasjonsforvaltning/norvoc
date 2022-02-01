@@ -22,7 +22,8 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined service types"@en,
        "Kontrollert vokabular med predefinerte tjenestetyper"@nb;
+   dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-02-01 11:07:30
+#### End of the file, 2022-02-01 14:31:29
