@@ -23,6 +23,7 @@
    dct:description "Controlled vocabulary with predefined translation types"@en,
        "Kontrollert vokabular med predefinerte oversettelsestyper"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/translation-type#authorised-translation>;
+   dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
@@ -33,4 +34,4 @@
    dct:identifier "http://data.norge.no/vocabulary/translation-type#authorised-translation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 11:10:03
+#### End of the file, 2022-02-01 14:33:52
