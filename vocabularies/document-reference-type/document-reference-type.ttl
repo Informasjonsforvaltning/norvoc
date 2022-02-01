@@ -20,9 +20,9 @@
        "Dokumentreferansetype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/document-reference-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "(Under development) A controlled vocabulary with predefined document reference types"@en,
+   dct:description "Controlled vocabulary with predefined document reference types"@en,
        "Kontrollert vokabular med predefinerte dokumentreferansetyper"@nb;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-02-01 09:52:01
+#### End of the file, 2022-02-01 12:46:38
