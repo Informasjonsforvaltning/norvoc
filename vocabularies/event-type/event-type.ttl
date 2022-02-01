@@ -25,6 +25,7 @@
    xkos:covers <https://data.norge.no/concepts/db48fa77-3f47-4d58-b4a3-41569f149c1a>;
    uneskos:contains <http://data.norge.no/vocabulary/event-type#administrative-decision-made>,
        <http://data.norge.no/vocabulary/event-type#data-changed>;
+   dct:issued "2022-01-31"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
@@ -42,4 +43,4 @@
    dct:identifier "http://data.norge.no/vocabulary/event-type#data-changed"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 13:39:12
+#### End of the file, 2022-02-01 14:09:57
