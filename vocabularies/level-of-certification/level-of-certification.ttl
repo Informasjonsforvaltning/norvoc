@@ -23,6 +23,7 @@
    dct:description "Controlled vocabulary with predefined levels of certification"@en,
        "Kontrollert vokabular med predefinerte sertifiseringsnivåer"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/level-of-certification#legislation>;
+   dct:issued "2022-01-31"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
@@ -33,4 +34,4 @@
    dct:identifier "http://data.norge.no/vocabulary/level-of-certification#legislation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 10:48:48
+#### End of the file, 2022-02-01 14:15:08
