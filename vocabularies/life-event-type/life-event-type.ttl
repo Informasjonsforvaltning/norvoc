@@ -19,10 +19,133 @@
        "Livshendelsestype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/life-event-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "(Under development) A controlled vocabulary with predefined life event types."@en,
-       "(Under utvikling) Kontrollert vokabular med predefinerte livshendelsestyper"@nb;
+   dct:description "Controlled vocabulary with predefined life event types"@en,
+       "Kontrollert vokabular med predefinerte livshendelsestyper"@nb;
    xkos:covers <https://data.norge.no/concepts/9b19d5ce-87b3-4584-a875-e7cff3ad6740>;
+   uneskos:contains <http://data.norge.no/vocabulary/life-event-type#having-a-child>,
+       <http://data.norge.no/vocabulary/life-event-type#becoming-a-caretaker>,
+       <http://data.norge.no/vocabulary/life-event-type#starting-education>,
+       <http://data.norge.no/vocabulary/life-event-type#looking-for-a-new-job>,
+       <http://data.norge.no/vocabulary/life-event-type#losing-or-quitting-a-job>,
+       <http://data.norge.no/vocabulary/life-event-type#looking-for-a-place-to-live>,
+       <http://data.norge.no/vocabulary/life-event-type#changing-relationship-status>,
+       <http://data.norge.no/vocabulary/life-event-type#driving-a-vehicle>,
+       <http://data.norge.no/vocabulary/life-event-type#travelling-abroad>,
+       <http://data.norge.no/vocabulary/life-event-type#moving-to-from-the-country>,
+       <http://data.norge.no/vocabulary/life-event-type#going-into-military-service>,
+       <http://data.norge.no/vocabulary/life-event-type#facing-an-emergency-or-health-problem>,
+       <http://data.norge.no/vocabulary/life-event-type#facing-a-crime>,
+       <http://data.norge.no/vocabulary/life-event-type#retirement>,
+       <http://data.norge.no/vocabulary/life-event-type#death-of-a-relative>;
+   dct:issued "2022-02-01"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-01-31 14:57:14
+<http://data.norge.no/vocabulary/life-event-type#having-a-child> rdf:type skos:Concept;
+   skos:prefLabel "having a child"@en,
+       "å få barn"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#having-a-child"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#becoming-a-caretaker> rdf:type skos:Concept;
+   skos:prefLabel "becoming a (social) caretaker"@en,
+       "å bli en omsorgsperson"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#becoming-a-caretaker"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#starting-education> rdf:type skos:Concept;
+   skos:prefLabel "starting education"@en,
+       "å ta utdanning"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#starting-education"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#looking-for-a-new-job> rdf:type skos:Concept;
+   skos:prefLabel "looking for a new job"@en,
+       "å søke om ny jobb"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#looking-for-a-new-job"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#losing-or-quitting-a-job> rdf:type skos:Concept;
+   skos:prefLabel "losing/quitting a job"@en,
+       "å miste/slutte en jobb"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   xkos:coreContentNote "includes: losing or quitting a job"@en,
+       "inkluderer: å miste eller slutte en jobb"@nb;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#losing-or-quitting-a-job"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#looking-for-a-place-to-live> rdf:type skos:Concept;
+   skos:prefLabel "looking for a place to live"@en,
+       "å finne et sted å bo"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#looking-for-a-place-to-live"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#changing-relationship-status> rdf:type skos:Concept;
+   skos:prefLabel "changing relationship status"@en,
+       "å endre forholdstatus"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#changing-relationship-status"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#driving-a-vehicle> rdf:type skos:Concept;
+   skos:prefLabel "driving a vehicle"@en,
+       "å kjøre et kjøretøy"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#driving-a-vehicle"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#travelling-abroad> rdf:type skos:Concept;
+   skos:prefLabel "travelling abroad"@en,
+       "å reise utenlands"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#travelling-abroad"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#moving-to-from-the-country> rdf:type skos:Concept;
+   skos:prefLabel "moving to/from the country"@en,
+       "å flytte til/fra landet"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#moving-to-from-the-country"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#going-into-military-service> rdf:type skos:Concept;
+   skos:prefLabel "going into military service"@en,
+       "å komme inn i militærtjenesten"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#going-into-military-service"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#facing-an-emergency-or-health-problem> rdf:type skos:Concept;
+   skos:prefLabel "facing an emergency / health problem"@en,
+       "å møte nødsituasjon/helseproblem"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#facing-an-emergency-or-health-problem"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#facing-a-crime> rdf:type skos:Concept;
+   skos:prefLabel "facing a crime"@en,
+       "å møte kriminalitet"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#facing-a-crime"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#retirement> rdf:type skos:Concept;
+   skos:prefLabel "retirement"@en,
+       "å bli pensjonist"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#retirement"^^xsd:anyURI;
+   .
+ 
+<http://data.norge.no/vocabulary/life-event-type#death-of-a-relative> rdf:type skos:Concept;
+   skos:prefLabel "death of a relative"@en,
+       "dødsfall av en sletning"@nb;
+   skos:inScheme <http://data.norge.no/vocabulary/life-event-type>;
+   dct:identifier "http://data.norge.no/vocabulary/life-event-type#death-of-a-relative"^^xsd:anyURI;
+   .
+ 
+#### End of the file, 2022-02-01 08:34:18
