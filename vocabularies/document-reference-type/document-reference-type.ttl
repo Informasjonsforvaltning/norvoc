@@ -22,7 +22,8 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined document reference types"@en,
        "Kontrollert vokabular med predefinerte dokumentreferansetyper"@nb;
+   dct:issued "2022-01-31"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-02-01 12:46:38
+#### End of the file, 2022-02-01 14:07:53
