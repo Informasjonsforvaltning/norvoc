@@ -20,8 +20,8 @@
        "Vilkårstype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/criterion-requirement-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "(Under development) Controlled vocabulary with predefined criterion requirement types"@en,
-       "(Under utvikling) Kontrollert vokabular med predefinerte vilkårstype"@nb;
+   dct:description "Controlled vocabulary with predefined criterion requirement types"@en,
+       "Kontrollert vokabular med predefinerte vilkårstype"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/criterion-requirement-type#age>,
        <http://data.norge.no/vocabulary/criterion-requirement-type#attestation>,
        <http://data.norge.no/vocabulary/criterion-requirement-type#health>,
@@ -89,4 +89,4 @@
    dct:identifier "http://data.norge.no/vocabulary/criterion-requirement-type#economy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 09:48:52
+#### End of the file, 2022-02-01 12:43:44
