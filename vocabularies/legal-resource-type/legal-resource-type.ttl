@@ -24,6 +24,7 @@
        "Kontrollert vokabular med predefinerte regulativ ressurs type"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/legal-resource-type#act>,
        <http://data.norge.no/vocabulary/legal-resource-type#regulation>;
+   dct:issued "2022-02-01"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
@@ -41,4 +42,4 @@
    dct:identifier "http://data.norge.no/vocabulary/legal-resource-type#regulation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 10:44:27
+#### End of the file, 2022-02-01 14:12:43
