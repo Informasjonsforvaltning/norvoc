@@ -20,8 +20,8 @@
        "Dokumentasjonstype"@nb;
    dct:identifier "http://data.norge.no/vocabulary/evidence-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "(Under development) This controlled vocabulary contains some predefined evidence types"@en,
-       "(Under utvikling) Dette kontrollerte vokabularet inneholder noen predefinerte dokumentasjonstyper"@nb;
+   dct:description "Controlled vocabulary with predefined evidence types"@en,
+       "Kontrollert vokabular med predefinerte dokumentasjonstyper"@nb;
    uneskos:contains <http://data.norge.no/vocabulary/evidence-type#attestation>,
        <http://data.norge.no/vocabulary/evidence-type#declaration>,
        <http://data.norge.no/vocabulary/evidence-type#protocol>,
@@ -58,4 +58,4 @@
    dct:identifier "http://data.norge.no/vocabulary/evidence-type#certificate"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 10:34:48
+#### End of the file, 2022-02-01 13:46:09
