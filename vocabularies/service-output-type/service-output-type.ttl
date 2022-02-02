@@ -26,7 +26,6 @@
        <http://data.norge.no/vocabulary/service-output-type#declaration>,
        <http://data.norge.no/vocabulary/service-output-type#physical-object>,
        <http://data.norge.no/vocabulary/service-output-type#identifier>,
-       <http://data.norge.no/vocabulary/service-output-type#access-code>,
        <http://data.norge.no/vocabulary/service-output-type#rights>,
        <http://data.norge.no/vocabulary/service-output-type#permit>,
        <http://data.norge.no/vocabulary/service-output-type#financial-benefit>,
@@ -58,16 +57,9 @@
  
 <http://data.norge.no/vocabulary/service-output-type#identifier> rdf:type skos:Concept;
    skos:prefLabel "identifier"@en,
-       "identifikator"@nb;
+       "identifikator eller aksesskode"@nb;
    skos:inScheme <http://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "http://data.norge.no/vocabulary/service-output-type#identifier"^^xsd:anyURI;
-   .
- 
-<http://data.norge.no/vocabulary/service-output-type#access-code> rdf:type skos:Concept;
-   skos:prefLabel "access code"@en,
-       "aksesskode"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-output-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-output-type#access-code"^^xsd:anyURI;
    .
  
 <http://data.norge.no/vocabulary/service-output-type#rights> rdf:type skos:Concept;
@@ -98,4 +90,4 @@
    dct:identifier "http://data.norge.no/vocabulary/service-output-type#financial-obligation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 14:27:01
+#### End of the file, 2022-02-02 11:28:04
