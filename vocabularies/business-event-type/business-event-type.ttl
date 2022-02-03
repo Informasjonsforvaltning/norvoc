@@ -26,6 +26,7 @@
        <http://data.norge.no/vocabulary/business-event-type#starting-cross-border-business>,
        <http://data.norge.no/vocabulary/business-event-type#doing-business>,
        <http://data.norge.no/vocabulary/business-event-type#closing-business>;
+   dct:modified "2022-02-03"^^xsd:date;
    dct:issued "2022-02-01"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
@@ -187,4 +188,4 @@
    xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#closing-business>;
    .
  
-#### End of the file, 2022-02-01 13:59:44
+#### End of the file, 2022-02-03 14:57:05
