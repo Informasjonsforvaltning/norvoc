@@ -12,60 +12,61 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <http://data.norge.no/vocabulary/> . 
+@base <https://data.norge.no/vocabulary/> . 
 
-<http://data.norge.no/vocabulary/role-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/role-type> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Role type"@en,
        "Rolletype"@nb;
-   dct:identifier "http://data.norge.no/vocabulary/role-type"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/role-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined role types"@en,
        "Kontrollert vokabular med predefinerte rolletyper"@nb;
-   uneskos:contains <http://data.norge.no/vocabulary/role-type#service-producer>,
-       <http://data.norge.no/vocabulary/role-type#service-provider>,
-       <http://data.norge.no/vocabulary/role-type#end-user>,
-       <http://data.norge.no/vocabulary/role-type#data-consumer>,
-       <http://data.norge.no/vocabulary/role-type#data-provider>;
+   uneskos:contains <https://data.norge.no/vocabulary/role-type#service-producer>,
+       <https://data.norge.no/vocabulary/role-type#service-provider>,
+       <https://data.norge.no/vocabulary/role-type#end-user>,
+       <https://data.norge.no/vocabulary/role-type#data-consumer>,
+       <https://data.norge.no/vocabulary/role-type#data-provider>;
+   dct:modified "2022-02-04"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<http://data.norge.no/vocabulary/role-type#service-producer> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/role-type#service-producer> rdf:type skos:Concept;
    skos:prefLabel "service producer"@en,
        "tjenesteprodusent"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/role-type>;
-   dct:identifier "http://data.norge.no/vocabulary/role-type#service-producer"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/role-type>;
+   dct:identifier "https://data.norge.no/vocabulary/role-type#service-producer"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/role-type#service-provider> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/role-type#service-provider> rdf:type skos:Concept;
    skos:prefLabel "service provider"@en,
        "tjenestetilbyder"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/role-type>;
-   dct:identifier "http://data.norge.no/vocabulary/role-type#service-provider"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/role-type>;
+   dct:identifier "https://data.norge.no/vocabulary/role-type#service-provider"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/role-type#end-user> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/role-type#end-user> rdf:type skos:Concept;
    skos:prefLabel "end user"@en,
        "sluttbruker"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/role-type>;
-   dct:identifier "http://data.norge.no/vocabulary/role-type#end-user"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/role-type>;
+   dct:identifier "https://data.norge.no/vocabulary/role-type#end-user"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/role-type#data-consumer> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/role-type#data-consumer> rdf:type skos:Concept;
    skos:prefLabel "data consumer"@en,
        "datakonsument"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/role-type>;
-   dct:identifier "http://data.norge.no/vocabulary/role-type#data-consumer"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/role-type>;
+   dct:identifier "https://data.norge.no/vocabulary/role-type#data-consumer"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/role-type#data-provider> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/role-type#data-provider> rdf:type skos:Concept;
    skos:prefLabel "data provider"@en,
        "dataleverandør"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/role-type>;
-   dct:identifier "http://data.norge.no/vocabulary/role-type#data-provider"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/role-type>;
+   dct:identifier "https://data.norge.no/vocabulary/role-type#data-provider"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 13:49:56
+#### End of the file, 2022-02-04 13:07:02
