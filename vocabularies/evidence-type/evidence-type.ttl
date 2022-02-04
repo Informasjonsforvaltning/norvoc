@@ -12,50 +12,53 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <http://data.norge.no/vocabulary/> . 
+@base <https://data.norge.no/vocabulary/> . 
 
-<http://data.norge.no/vocabulary/evidence-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/evidence-type> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Evidence type"@en,
        "Dokumentasjonstype"@nb;
-   dct:identifier "http://data.norge.no/vocabulary/evidence-type"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/evidence-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined evidence types"@en,
        "Kontrollert vokabular med predefinerte dokumentasjonstyper"@nb;
-   uneskos:contains <http://data.norge.no/vocabulary/evidence-type#attestation>,
-       <http://data.norge.no/vocabulary/evidence-type#declaration>,
-       <http://data.norge.no/vocabulary/evidence-type#protocol>,
-       <http://data.norge.no/vocabulary/evidence-type#certificate>;
+   uneskos:contains <https://data.norge.no/vocabulary/evidence-type#attestation>,
+       <https://data.norge.no/vocabulary/evidence-type#declaration>,
+       <https://data.norge.no/vocabulary/evidence-type#protocol>,
+       <https://data.norge.no/vocabulary/evidence-type#certificate>;
+   dct:modified "2022-02-04"^^xsd:date;
+   dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
+       <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<http://data.norge.no/vocabulary/evidence-type#attestation> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/evidence-type#attestation> rdf:type skos:Concept;
    skos:prefLabel "attestation"@en,
        "attest"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/evidence-type>;
-   dct:identifier "http://data.norge.no/vocabulary/evidence-type#attestation"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/evidence-type>;
+   dct:identifier "https://data.norge.no/vocabulary/evidence-type#attestation"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/evidence-type#declaration> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/evidence-type#declaration> rdf:type skos:Concept;
    skos:prefLabel "declaration"@en,
        "erklæring"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/evidence-type>;
-   dct:identifier "http://data.norge.no/vocabulary/evidence-type#declaration"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/evidence-type>;
+   dct:identifier "https://data.norge.no/vocabulary/evidence-type#declaration"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/evidence-type#protocol> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/evidence-type#protocol> rdf:type skos:Concept;
    skos:prefLabel "protocol"@en,
        "protokoll"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/evidence-type>;
-   dct:identifier "http://data.norge.no/vocabulary/evidence-type#protocol"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/evidence-type>;
+   dct:identifier "https://data.norge.no/vocabulary/evidence-type#protocol"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/evidence-type#certificate> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/evidence-type#certificate> rdf:type skos:Concept;
    skos:prefLabel "certificate"@en,
        "sertifikat"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/evidence-type>;
-   dct:identifier "http://data.norge.no/vocabulary/evidence-type#certificate"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/evidence-type>;
+   dct:identifier "https://data.norge.no/vocabulary/evidence-type#certificate"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 13:46:09
+#### End of the file, 2022-02-04 12:47:06
