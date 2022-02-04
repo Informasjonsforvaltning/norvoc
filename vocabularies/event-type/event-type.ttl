@@ -46,4 +46,4 @@
    dct:identifier "https://data.norge.no/vocabulary/event-type#data-changed"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-04 12:42:21
+#### End of the file, 2022-02-04 13:54:19
