@@ -12,26 +12,29 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <http://data.norge.no/vocabulary/> . 
+@base <https://data.norge.no/vocabulary/> . 
 
-<http://data.norge.no/vocabulary/level-of-certification> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/level-of-certification> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Level of certification"@en,
        "Sertifiseringsnivå"@nb;
-   dct:identifier "http://data.norge.no/vocabulary/level-of-certification"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/level-of-certification"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined levels of certification"@en,
        "Kontrollert vokabular med predefinerte sertifiseringsnivåer"@nb;
-   uneskos:contains <http://data.norge.no/vocabulary/level-of-certification#legislation>;
+   uneskos:contains <https://data.norge.no/vocabulary/level-of-certification#legislation>;
+   dct:modified "2022-02-04"^^xsd:date;
+   dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
+       <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-31"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<http://data.norge.no/vocabulary/level-of-certification#legislation> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/level-of-certification#legislation> rdf:type skos:Concept;
    skos:prefLabel "legislation"@en,
        "lovregulert"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/level-of-certification>;
-   dct:identifier "http://data.norge.no/vocabulary/level-of-certification#legislation"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/level-of-certification>;
+   dct:identifier "https://data.norge.no/vocabulary/level-of-certification#legislation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 14:15:08
+#### End of the file, 2022-02-04 12:54:40
