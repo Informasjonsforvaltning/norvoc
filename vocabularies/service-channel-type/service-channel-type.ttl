@@ -12,106 +12,109 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <http://data.norge.no/vocabulary/> . 
+@base <https://data.norge.no/vocabulary/> . 
 
-<http://data.norge.no/vocabulary/service-channel-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/service-channel-type> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Channel type"@en,
        "Kanaltype"@nb;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined channel types"@en,
        "Kontrollert vokabular med predefinerte kanaltyper"@nb;
-   uneskos:contains <http://data.norge.no/vocabulary/service-channel-type#e-mail>,
-       <http://data.norge.no/vocabulary/service-channel-type#online-service>,
-       <http://data.norge.no/vocabulary/service-channel-type#homepage>,
-       <http://data.norge.no/vocabulary/service-channel-type#fax>,
-       <http://data.norge.no/vocabulary/service-channel-type#assistant>,
-       <http://data.norge.no/vocabulary/service-channel-type#telephone>,
-       <http://data.norge.no/vocabulary/service-channel-type#mobile-app>,
-       <http://data.norge.no/vocabulary/service-channel-type#digital-tv>,
-       <http://data.norge.no/vocabulary/service-channel-type#mail>,
-       <http://data.norge.no/vocabulary/service-channel-type#service-bureau>,
-       <http://data.norge.no/vocabulary/service-channel-type#client-location>;
+   uneskos:contains <https://data.norge.no/vocabulary/service-channel-type#e-mail>,
+       <https://data.norge.no/vocabulary/service-channel-type#online-service>,
+       <https://data.norge.no/vocabulary/service-channel-type#homepage>,
+       <https://data.norge.no/vocabulary/service-channel-type#fax>,
+       <https://data.norge.no/vocabulary/service-channel-type#assistant>,
+       <https://data.norge.no/vocabulary/service-channel-type#telephone>,
+       <https://data.norge.no/vocabulary/service-channel-type#mobile-app>,
+       <https://data.norge.no/vocabulary/service-channel-type#digital-tv>,
+       <https://data.norge.no/vocabulary/service-channel-type#mail>,
+       <https://data.norge.no/vocabulary/service-channel-type#service-bureau>,
+       <https://data.norge.no/vocabulary/service-channel-type#client-location>;
+   dct:modified "2022-02-04"^^xsd:date;
+   dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
+       <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#e-mail> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#e-mail> rdf:type skos:Concept;
    skos:prefLabel "e-mail"@en,
        "e-post"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#e-mail"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#e-mail"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#online-service> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#online-service> rdf:type skos:Concept;
    skos:prefLabel "online service"@en,
        "online tjeneste"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#online-service"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#online-service"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#homepage> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#homepage> rdf:type skos:Concept;
    skos:prefLabel "homepage"@en,
        "hjemmeside"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#homepage"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#homepage"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#fax> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#fax> rdf:type skos:Concept;
    skos:prefLabel "fax"@en,
        "telefaks"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#fax"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#fax"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#assistant> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#assistant> rdf:type skos:Concept;
    skos:prefLabel "assistant"@en,
        "assistent"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#assistant"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#assistant"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#telephone> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#telephone> rdf:type skos:Concept;
    skos:prefLabel "telephone"@en,
        "telefon"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#telephone"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#telephone"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#mobile-app> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#mobile-app> rdf:type skos:Concept;
    skos:prefLabel "mobile app"@en,
        "mobil app"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#mobile-app"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#mobile-app"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#digital-tv> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#digital-tv> rdf:type skos:Concept;
    skos:prefLabel "digital tv"@en,
        "digital tv"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#digital-tv"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#digital-tv"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#mail> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#mail> rdf:type skos:Concept;
    skos:prefLabel "mail"@en,
        "post"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#mail"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#mail"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#service-bureau> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#service-bureau> rdf:type skos:Concept;
    skos:prefLabel "service bureau"@en,
        "tjenestekontor"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#service-bureau"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#service-bureau"^^xsd:anyURI;
    .
  
-<http://data.norge.no/vocabulary/service-channel-type#client-location> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/service-channel-type#client-location> rdf:type skos:Concept;
    skos:prefLabel "cient’s location"@en,
        "brukers lokasjon"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/service-channel-type>;
-   dct:identifier "http://data.norge.no/vocabulary/service-channel-type#client-location"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/service-channel-type>;
+   dct:identifier "https://data.norge.no/vocabulary/service-channel-type#client-location"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 14:24:24
+#### End of the file, 2022-02-04 13:14:02
