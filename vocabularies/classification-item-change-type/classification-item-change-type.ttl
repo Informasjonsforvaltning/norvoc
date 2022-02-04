@@ -12,110 +12,111 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <http://data.norge.no/vocabulary/> . 
+@base <https://data.norge.no/vocabulary/> . 
 
-<http://data.norge.no/vocabulary/classification-item-change-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/classification-item-change-type> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title "Classification Item Change Types"@en,
+   dct:title "Classification item change types"@en,
        "Kategoriendringstyper"@nb;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "(Under development) A controlled vocabulary with predefined Classification Item Change Types"@en,
-       "(Under utvikling) Kontrollert vokabular med pedefinerte kategoriendringstyper"@nb;
-   uneskos:contains <http://data.norge.no/vocabulary/classification-item-change-type#item-deletion>,
-       <http://data.norge.no/vocabulary/classification-item-change-type#item-creation>,
-       <http://data.norge.no/vocabulary/classification-item-change-type#item-merging>,
-       <http://data.norge.no/vocabulary/classification-item-change-type#item-take-over>,
-       <http://data.norge.no/vocabulary/classification-item-change-type#item-breakdown>,
-       <http://data.norge.no/vocabulary/classification-item-change-type#item-split-off>,
-       <http://data.norge.no/vocabulary/classification-item-change-type#item-transfer>,
-       <http://data.norge.no/vocabulary/classification-item-change-type#code-change>,
-       <http://data.norge.no/vocabulary/classification-item-change-type#name-change>;
+   dct:description "Controlled vocabulary with predefined classification item change types"@en,
+       "Kontrollert vokabular med pedefinerte kategoriendringstyper"@nb;
+   uneskos:contains <https://data.norge.no/vocabulary/classification-item-change-type#item-deletion>,
+       <https://data.norge.no/vocabulary/classification-item-change-type#item-creation>,
+       <https://data.norge.no/vocabulary/classification-item-change-type#item-merging>,
+       <https://data.norge.no/vocabulary/classification-item-change-type#item-take-over>,
+       <https://data.norge.no/vocabulary/classification-item-change-type#item-breakdown>,
+       <https://data.norge.no/vocabulary/classification-item-change-type#item-split-off>,
+       <https://data.norge.no/vocabulary/classification-item-change-type#item-transfer>,
+       <https://data.norge.no/vocabulary/classification-item-change-type#code-change>,
+       <https://data.norge.no/vocabulary/classification-item-change-type#name-change>;
+   dct:modified "2022-02-04"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-28"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#item-deletion> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#item-deletion> rdf:type skos:Concept;
    skos:prefLabel "deletion"@en,
        "sletting"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   skos:topConceptOf <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#item-deletion"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   skos:topConceptOf <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#item-deletion"^^xsd:anyURI;
    skos:notation "1";
    skos:altLabel "item deletion"@en;
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#item-creation> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#item-creation> rdf:type skos:Concept;
    skos:prefLabel "creation"@en,
        "oppretting"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#item-creation"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#item-creation"^^xsd:anyURI;
    skos:notation "2";
    skos:altLabel "item creation"@en;
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#item-merging> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#item-merging> rdf:type skos:Concept;
    skos:prefLabel "merging"@en,
        "sammenslåing"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#item-merging"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#item-merging"^^xsd:anyURI;
    skos:notation "3";
    skos:altLabel "item merging"@en;
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#item-take-over> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#item-take-over> rdf:type skos:Concept;
    skos:prefLabel "take-over"@en,
        "overtakelse"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#item-take-over"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#item-take-over"^^xsd:anyURI;
    skos:notation "4";
    skos:altLabel "item take-over"@en;
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#item-breakdown> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#item-breakdown> rdf:type skos:Concept;
    skos:prefLabel "breakdown"@en,
        "oppsplitting"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#item-breakdown"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#item-breakdown"^^xsd:anyURI;
    skos:notation "5";
    skos:altLabel "item breakdown"@en;
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#item-split-off> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#item-split-off> rdf:type skos:Concept;
    skos:prefLabel "split off"@en,
        "avspalting"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#item-split-off"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#item-split-off"^^xsd:anyURI;
    skos:notation "6";
    skos:altLabel "item split off"@en;
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#item-transfer> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#item-transfer> rdf:type skos:Concept;
    skos:prefLabel "transfer"@en,
        "overføring"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#item-transfer"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#item-transfer"^^xsd:anyURI;
    skos:notation "7";
    skos:altLabel "item transfer"@en;
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#code-change> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#code-change> rdf:type skos:Concept;
    skos:prefLabel "code change"@en,
        "kodeendring"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#code-change"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#code-change"^^xsd:anyURI;
    skos:notation "8";
    .
  
-<http://data.norge.no/vocabulary/classification-item-change-type#name-change> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/classification-item-change-type#name-change> rdf:type skos:Concept;
    skos:prefLabel "name change"@en,
        "kategorinavnendring"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/classification-item-change-type>;
-   dct:identifier "http://data.norge.no/vocabulary/classification-item-change-type#name-change"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
+   dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#name-change"^^xsd:anyURI;
    skos:notation "9";
    skos:altLabel "category name change"@en;
    .
  
-#### End of the file, 2022-02-01 09:42:45
+#### End of the file, 2022-02-04 11:26:45
