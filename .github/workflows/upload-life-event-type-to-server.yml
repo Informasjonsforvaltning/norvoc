@@ -1,0 +1,29 @@
+name: upload files to server
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - vocabularies/life-event-type/**
+
+jobs:
+  test_uploading_of_file:
+    name: Upload vocabulary to static-rdf-server
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Upload to static-rdf-server in staging
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v1.0.0-alpha.1
+        id: upload-files
+        with:
+          ontology-type: "vocabulary"
+          ontology: "life-event-type"
+          rdf-file: "vocabularies/life-event-type/life-event-type.ttl"
+          html-file: "vocabularies/life-event-type/index.html;filename=life-event-type.html"
+          host: "https://data.norge.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}

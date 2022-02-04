@@ -1,0 +1,29 @@
+name: upload files to server
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - vocabularies/criterion-requirement-type/**
+
+jobs:
+  test_uploading_of_file:
+    name: Upload vocabulary to static-rdf-server
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Upload to static-rdf-server in staging
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v1.0.0-alpha.1
+        id: upload-files
+        with:
+          ontology-type: "vocabulary"
+          ontology: "criterion-requirement-type"
+          rdf-file: "vocabularies/criterion-requirement-type/criterion-requirement-type.ttl"
+          html-file: "vocabularies/criterion-requirement-type/index.html;filename=criterion-requirement-type.html"
+          host: "https://data.norge.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
