@@ -12,26 +12,29 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <http://data.norge.no/vocabulary/> . 
+@base <https://data.norge.no/vocabulary/> . 
 
-<http://data.norge.no/vocabulary/copy-quality-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/copy-quality-type> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Copy quality type"@en,
        "Kopitype"@nb;
-   dct:identifier "http://data.norge.no/vocabulary/copy-quality-type"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/copy-quality-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined copy quality types"@en,
        "Kontrollert vokabular med predefinerte kopityper"@nb;
-   uneskos:contains <http://data.norge.no/vocabulary/copy-quality-type#certified-copy>;
+   uneskos:contains <https://data.norge.no/vocabulary/copy-quality-type#certified-copy>;
+   dct:modified "2022-02-04"^^xsd:date;
+   dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
+       <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-01"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<http://data.norge.no/vocabulary/copy-quality-type#certified-copy> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/copy-quality-type#certified-copy> rdf:type skos:Concept;
    skos:prefLabel "certified copy"@en,
        "attestert kopi"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/copy-quality-type>;
-   dct:identifier "http://data.norge.no/vocabulary/copy-quality-type#certified-copy"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/copy-quality-type>;
+   dct:identifier "https://data.norge.no/vocabulary/copy-quality-type#certified-copy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 14:02:24
+#### End of the file, 2022-02-04 11:33:29

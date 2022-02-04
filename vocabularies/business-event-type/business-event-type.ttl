@@ -12,180 +12,182 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <http://data.norge.no/vocabulary/> . 
+@base <https://data.norge.no/vocabulary/> . 
 
-<http://data.norge.no/vocabulary/business-event-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/business-event-type> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "2"^^xsd:positiveInteger;
    dct:title "Business event type"@en,
        "Virksomhetshendelsestype"@nb;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined business event types"@en,
        "Kontrollert vokabular med predefinerte virksomhetshendelsestyper"@nb;
-   uneskos:contains <http://data.norge.no/vocabulary/business-event-type#starting-business>,
-       <http://data.norge.no/vocabulary/business-event-type#starting-cross-border-business>,
-       <http://data.norge.no/vocabulary/business-event-type#doing-business>,
-       <http://data.norge.no/vocabulary/business-event-type#closing-business>;
-   dct:modified "2022-02-03"^^xsd:date;
+   uneskos:contains <https://data.norge.no/vocabulary/business-event-type#starting-business>,
+       <https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business>,
+       <https://data.norge.no/vocabulary/business-event-type#doing-business>,
+       <https://data.norge.no/vocabulary/business-event-type#closing-business>;
+   dct:modified "2022-02-04"^^xsd:date;
+   dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
+       <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-01"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#starting-business> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#starting-business> rdf:type skos:Concept;
    skos:prefLabel "starting business"@en,
        "å starte en virksomhet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#starting-business"^^xsd:anyURI;
-   xkos:hasPart <http://data.norge.no/vocabulary/business-event-type#registering-a-company>,
-       <http://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate>,
-       <http://data.norge.no/vocabulary/business-event-type#registering-intellectual-property>,
-       <http://data.norge.no/vocabulary/business-event-type#registering-a-branch>,
-       <http://data.norge.no/vocabulary/business-event-type#starting-a-new-activity>,
-       <http://data.norge.no/vocabulary/business-event-type#financing-a-company>,
-       <http://data.norge.no/vocabulary/business-event-type#hiring-an-employee>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#starting-business"^^xsd:anyURI;
+   xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#registering-a-company>,
+       <https://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate>,
+       <https://data.norge.no/vocabulary/business-event-type#registering-intellectual-property>,
+       <https://data.norge.no/vocabulary/business-event-type#registering-a-branch>,
+       <https://data.norge.no/vocabulary/business-event-type#starting-a-new-activity>,
+       <https://data.norge.no/vocabulary/business-event-type#financing-a-company>,
+       <https://data.norge.no/vocabulary/business-event-type#hiring-an-employee>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#registering-a-company> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#registering-a-company> rdf:type skos:Concept;
    skos:prefLabel "registering a company"@en,
        "å registrere en virksomhet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#registering-a-company"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#starting-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#registering-a-company"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate> rdf:type skos:Concept;
    skos:prefLabel "needing a licence, permit or certificate to start or continue an activity"@en,
        "behov for lisens/tillatelse/sertifikat til å starte eller fortsette en aktivitet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#starting-business>,
-       <http://data.norge.no/vocabulary/business-event-type#doing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
+       <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#registering-intellectual-property> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#registering-intellectual-property> rdf:type skos:Concept;
    skos:prefLabel "registering Intellectual Property"@en,
        "å registrere immateriell rettighet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#registering-intellectual-property"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#starting-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#registering-intellectual-property"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#registering-a-branch> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#registering-a-branch> rdf:type skos:Concept;
    skos:prefLabel "registering a branch"@en,
        "å registrere en filial"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#registering-a-branch"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#starting-business>,
-       <http://data.norge.no/vocabulary/business-event-type#doing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#registering-a-branch"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
+       <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#starting-a-new-activity> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#starting-a-new-activity> rdf:type skos:Concept;
    skos:prefLabel "starting a new activity"@en,
        "å starte en ny næring"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#starting-a-new-activity"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#starting-business>,
-       <http://data.norge.no/vocabulary/business-event-type#doing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#starting-a-new-activity"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
+       <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#financing-a-company> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#financing-a-company> rdf:type skos:Concept;
    skos:prefLabel "financing a company"@en,
        "å skaffe finansiering til en virksomhet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#financing-a-company"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#starting-business>,
-       <http://data.norge.no/vocabulary/business-event-type#doing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#financing-a-company"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
+       <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#hiring-an-employee> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#hiring-an-employee> rdf:type skos:Concept;
    skos:prefLabel "hiring an employee"@en,
        "å ansette en medarbeider"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#hiring-an-employee"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#starting-business>,
-       <http://data.norge.no/vocabulary/business-event-type#doing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#hiring-an-employee"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
+       <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#starting-cross-border-business> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business> rdf:type skos:Concept;
    skos:prefLabel "starting cross-border business"@en,
        "å starte en virksomhet over landegrense"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#starting-cross-border-business"^^xsd:anyURI;
-   xkos:hasPart <http://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business>,
-       <http://data.norge.no/vocabulary/business-event-type#registering-a-branch>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business"^^xsd:anyURI;
+   xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business>,
+       <https://data.norge.no/vocabulary/business-event-type#registering-a-branch>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business> rdf:type skos:Concept;
    skos:prefLabel "registering a cross-border business"@en,
        "å registrere en virksomhet over landegrense"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#starting-cross-border-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#doing-business> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#doing-business> rdf:type skos:Concept;
    skos:prefLabel "doing business"@en,
        "å drive en virksomhet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#doing-business"^^xsd:anyURI;
-   xkos:hasPart <http://data.norge.no/vocabulary/business-event-type#financing-a-company>,
-       <http://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate>,
-       <http://data.norge.no/vocabulary/business-event-type#registering-intellectual-property>,
-       <http://data.norge.no/vocabulary/business-event-type#hiring-an-employee>,
-       <http://data.norge.no/vocabulary/business-event-type#participating-in-public-procurement>,
-       <http://data.norge.no/vocabulary/business-event-type#notifying-and-reporting-to-authorities>,
-       <http://data.norge.no/vocabulary/business-event-type#starting-a-new-activity>,
-       <http://data.norge.no/vocabulary/business-event-type#registering-a-branch>,
-       <http://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#doing-business"^^xsd:anyURI;
+   xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#financing-a-company>,
+       <https://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate>,
+       <https://data.norge.no/vocabulary/business-event-type#registering-intellectual-property>,
+       <https://data.norge.no/vocabulary/business-event-type#hiring-an-employee>,
+       <https://data.norge.no/vocabulary/business-event-type#participating-in-public-procurement>,
+       <https://data.norge.no/vocabulary/business-event-type#notifying-and-reporting-to-authorities>,
+       <https://data.norge.no/vocabulary/business-event-type#starting-a-new-activity>,
+       <https://data.norge.no/vocabulary/business-event-type#registering-a-branch>,
+       <https://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#participating-in-public-procurement> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#participating-in-public-procurement> rdf:type skos:Concept;
    skos:prefLabel "participating in public procurement"@en,
        "å delta i offentlig anbud"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#participating-in-public-procurement"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#doing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#participating-in-public-procurement"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#notifying-and-reporting-to-authorities> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#notifying-and-reporting-to-authorities> rdf:type skos:Concept;
    skos:prefLabel "notifying and reporting to authorities"@en,
        "å varsle/rapportere til myndighet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#notifying-and-reporting-to-authorities"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#doing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#notifying-and-reporting-to-authorities"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors> rdf:type skos:Concept;
    skos:prefLabel "having problems in paying creditors"@en,
        "å ha problem med å betale kreditor"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#doing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#closing-business> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#closing-business> rdf:type skos:Concept;
    skos:prefLabel "closing business"@en,
        "å avslutte en virksomhet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#closing-business"^^xsd:anyURI;
-   xkos:hasPart <http://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company>,
-       <http://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#closing-business"^^xsd:anyURI;
+   xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company>,
+       <https://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company> rdf:type skos:Concept;
    skos:prefLabel "restructuring of a company"@en,
        "å restrukturere en virksomhet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#closing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#closing-business>;
    .
  
-<http://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company> rdf:type skos:Concept;
    skos:prefLabel "dissolution of a company"@en,
        "å legge ned en virksomhet"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/business-event-type>;
-   dct:identifier "http://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company"^^xsd:anyURI;
-   xkos:isPartOf <http://data.norge.no/vocabulary/business-event-type#closing-business>;
+   skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   dct:identifier "https://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company"^^xsd:anyURI;
+   xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#closing-business>;
    .
  
-#### End of the file, 2022-02-03 14:57:05
+#### End of the file, 2022-02-04 11:10:50
