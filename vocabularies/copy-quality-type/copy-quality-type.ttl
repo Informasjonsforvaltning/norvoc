@@ -37,4 +37,4 @@
    dct:identifier "https://data.norge.no/vocabulary/copy-quality-type#certified-copy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-04 11:33:29
+#### End of the file, 2022-02-04 11:42:14
