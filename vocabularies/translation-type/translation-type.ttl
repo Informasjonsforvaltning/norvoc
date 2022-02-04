@@ -12,26 +12,29 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <http://data.norge.no/vocabulary/> . 
+@base <https://data.norge.no/vocabulary/> . 
 
-<http://data.norge.no/vocabulary/translation-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/translation-type> rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Translation type"@en,
        "Oversettelsestype"@nb;
-   dct:identifier "http://data.norge.no/vocabulary/translation-type"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/translation-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined translation types"@en,
        "Kontrollert vokabular med predefinerte oversettelsestyper"@nb;
-   uneskos:contains <http://data.norge.no/vocabulary/translation-type#authorised-translation>;
+   uneskos:contains <https://data.norge.no/vocabulary/translation-type#authorised-translation>;
+   dct:modified "2022-02-04"^^xsd:date;
+   dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
+       <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<http://data.norge.no/vocabulary/translation-type#authorised-translation> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/translation-type#authorised-translation> rdf:type skos:Concept;
    skos:prefLabel "authorised translation"@en,
        "autorisert oversettelse"@nb;
-   skos:inScheme <http://data.norge.no/vocabulary/translation-type>;
-   dct:identifier "http://data.norge.no/vocabulary/translation-type#authorised-translation"^^xsd:anyURI;
+   skos:inScheme <https://data.norge.no/vocabulary/translation-type>;
+   dct:identifier "https://data.norge.no/vocabulary/translation-type#authorised-translation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-01 14:33:52
+#### End of the file, 2022-02-04 13:51:01
