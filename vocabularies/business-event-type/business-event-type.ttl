@@ -115,7 +115,7 @@
 <https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business>
    rdf:type skos:Concept;
    skos:prefLabel "starting cross-border business"@en,
-       "å starte en virksomhet over landegrense"@nb;
+       "å starte en internasjonal virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business"^^xsd:anyURI;
    xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business>,
@@ -178,7 +178,7 @@
 <https://data.norge.no/vocabulary/business-event-type#closing-business>
    rdf:type skos:Concept;
    skos:prefLabel "closing business"@en,
-       "å avslutte en virksomhet"@nb;
+       "å avvikle en virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#closing-business"^^xsd:anyURI;
    xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company>,
@@ -203,4 +203,4 @@
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#closing-business>;
    .
  
-#### End of the file, 2022-02-07 10:20:01
+#### End of the file, 2022-02-07 14:55:50
