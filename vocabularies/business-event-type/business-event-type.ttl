@@ -34,6 +34,7 @@
    skos:prefLabel "starting business"@en,
        "å starte en virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "All (public) services for local businesses until the business is eligible for operation."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#starting-business"^^xsd:anyURI;
    xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#registering-a-company>,
        <https://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate>,
@@ -42,6 +43,7 @@
        <https://data.norge.no/vocabulary/business-event-type#starting-a-new-activity>,
        <https://data.norge.no/vocabulary/business-event-type#financing-a-company>,
        <https://data.norge.no/vocabulary/business-event-type#hiring-an-employee>;
+   skos:example "Some examples of events that would fall under this Key Business Event are “Starting a company”, “Starting a new activity”, “Applying for licenses, permits and certificates”, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/business-event-type#registering-a-company>
@@ -49,15 +51,18 @@
    skos:prefLabel "registering a company"@en,
        "å registrere en virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services that are related to different kind of activities that have to be done before the business is eligible to operate."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#registering-a-company"^^xsd:anyURI;
+   skos:example "For instance registering in the business register, registering as a VAT payer, notifying the residence of your company…"@en;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>;
    .
  
 <https://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate>
    rdf:type skos:Concept;
    skos:prefLabel "needing a licence, permit or certificate to start or continue an activity"@en,
-       "behov for lisens/tillatelse/sertifikat til å starte eller fortsette en aktivitet"@nb;
+       "behov for lisens/sertifikat/tillatelse til å starte eller fortsette en aktivitet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business events groups (public) services related to the request of a licence, permit, certificate or other official document that have to be acquired before starting to execute a certain activity."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
        <https://data.norge.no/vocabulary/business-event-type#doing-business>;
@@ -68,6 +73,7 @@
    skos:prefLabel "registering Intellectual Property"@en,
        "å registrere immateriell rettighet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services related to the registering inventions, patents, trademarks, copyrights."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#registering-intellectual-property"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>;
    .
@@ -77,6 +83,7 @@
    skos:prefLabel "registering a branch"@en,
        "å registrere en filial"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services for opening affiliates and representative offices."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#registering-a-branch"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
        <https://data.norge.no/vocabulary/business-event-type#doing-business>;
@@ -85,8 +92,9 @@
 <https://data.norge.no/vocabulary/business-event-type#starting-a-new-activity>
    rdf:type skos:Concept;
    skos:prefLabel "starting a new activity"@en,
-       "å starte en ny næring"@nb;
+       "å starte ny aktivitet/bransje"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services for the start-up of a new activity, and that have to be done before you can start with the particular activity."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#starting-a-new-activity"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
        <https://data.norge.no/vocabulary/business-event-type#doing-business>;
@@ -97,6 +105,7 @@
    skos:prefLabel "financing a company"@en,
        "å skaffe finansiering til en virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services related to different types of funding, grants, loans, subsidies that help to finance the business."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#financing-a-company"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
        <https://data.norge.no/vocabulary/business-event-type#doing-business>;
@@ -107,6 +116,7 @@
    skos:prefLabel "hiring an employee"@en,
        "å ansette en medarbeider"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services for recruiting and registering employees, applying for a work permits, changes in employment."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#hiring-an-employee"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-business>,
        <https://data.norge.no/vocabulary/business-event-type#doing-business>;
@@ -117,16 +127,19 @@
    skos:prefLabel "starting cross-border business"@en,
        "å starte en internasjonal virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "All (public) services for foreign businesses (branches or temporary service provision) until the business is eligible for operation."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business"^^xsd:anyURI;
    xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business>,
        <https://data.norge.no/vocabulary/business-event-type#registering-a-branch>;
+   skos:example "Some examples of events that would fall under this Key Business Event are “Registering a company abroad”, “Starting a new branch”, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business>
    rdf:type skos:Concept;
    skos:prefLabel "registering a cross-border business"@en,
-       "å registrere en virksomhet over landegrense"@nb;
+       "å registrere en internasjonal virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services that result in starting an international operation."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#registering-a-cross-border-business"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business>;
    .
@@ -136,6 +149,7 @@
    skos:prefLabel "doing business"@en,
        "å drive en virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "All (public) services for business operation, growth, expansion, staffing and taxes."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#doing-business"^^xsd:anyURI;
    xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#financing-a-company>,
        <https://data.norge.no/vocabulary/business-event-type#needing-a-licence-or-permit-or-certificate>,
@@ -146,6 +160,7 @@
        <https://data.norge.no/vocabulary/business-event-type#starting-a-new-activity>,
        <https://data.norge.no/vocabulary/business-event-type#registering-a-branch>,
        <https://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors>;
+   skos:example "Some examples of events that would fall under this Key Business Event are “Financing a business”, “Staffing”, “Reporting and notifying authorities”, “Paying taxes”, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/business-event-type#participating-in-public-procurement>
@@ -153,6 +168,7 @@
    skos:prefLabel "participating in public procurement"@en,
        "å delta i offentlig anbud"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services related to participating in a public tender, or directly selling services/products to a public administration."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#participating-in-public-procurement"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
@@ -162,6 +178,7 @@
    skos:prefLabel "notifying and reporting to authorities"@en,
        "å varsle/rapportere til myndighet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "Notifying authorities about different type of activitie, for instance environmental information nnual reports, accounting procedures... This business event also includes periodic activities, for instance declaring the profit of a company (and thus paying taxes)."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#notifying-and-reporting-to-authorities"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
@@ -169,8 +186,9 @@
 <https://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors>
    rdf:type skos:Concept;
    skos:prefLabel "having problems in paying creditors"@en,
-       "å ha problem med å betale kreditor"@nb;
+       "å ha betalingsproblemer"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services for starting the necessary (legal) procedures for getting protection when a company does not have enough cash flow for paying creditors."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#having-problems-in-paying-creditors"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#doing-business>;
    .
@@ -180,16 +198,19 @@
    skos:prefLabel "closing business"@en,
        "å avvikle en virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "All (public) services related to closing a business. This covers also mergers and acquisitions. The criterion is a change in the registry that causes a termination of operation of a legal entity."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#closing-business"^^xsd:anyURI;
    xkos:hasPart <https://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company>,
        <https://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company>;
+   skos:example "Some examples of events that would fall under this Key Business Event are “Closing down a company”, “Closing a branch”, “Merging you company”, “Selling your company”, “Bankruptcy”, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company>
    rdf:type skos:Concept;
    skos:prefLabel "restructuring of a company"@en,
-       "å restrukturere en virksomhet"@nb;
+       "å omstrukturere en virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services related to the reorganisation, merger, acquisition, any change on the legal status of the business."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#restructuring-of-a-company"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#closing-business>;
    .
@@ -197,10 +218,11 @@
 <https://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company>
    rdf:type skos:Concept;
    skos:prefLabel "dissolution of a company"@en,
-       "å legge ned en virksomhet"@nb;
+       "å oppløse en virksomhet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/business-event-type>;
+   xkos:coreContentNote "This business event groups (public) services related to the closing, deregistration, discontinuation, liquidation, bankruptcy and other procedures that end the existence of a business."@en;
    dct:identifier "https://data.norge.no/vocabulary/business-event-type#dissolution-of-a-company"^^xsd:anyURI;
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#closing-business>;
    .
  
-#### End of the file, 2022-02-07 14:55:50
+#### End of the file, 2022-02-07 20:09:23
