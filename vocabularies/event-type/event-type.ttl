@@ -2,19 +2,15 @@
 
 @prefix adms: <http://www.w3.org/ns/adms#> . 
 @prefix dct: <http://purl.org/dc/terms/> . 
-@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
-@prefix owl: <http://www.w3.org/2002/07/owl#> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
-@prefix schema: <http://schema.org/> . 
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
 @prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
-@prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
 @base <https://data.norge.no/vocabulary/> . 
 
-<https://data.norge.no/vocabulary/event-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/event-type>
+   rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Event type"@en,
        "Hendelsestype"@nb;
@@ -25,25 +21,27 @@
    xkos:covers <https://data.norge.no/concepts/db48fa77-3f47-4d58-b4a3-41569f149c1a>;
    uneskos:contains <https://data.norge.no/vocabulary/event-type#administrative-decision-made>,
        <https://data.norge.no/vocabulary/event-type#data-changed>;
-   dct:modified "2022-02-04"^^xsd:date;
+   dct:modified "2022-02-07"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-31"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<https://data.norge.no/vocabulary/event-type#administrative-decision-made> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/event-type#administrative-decision-made>
+   rdf:type skos:Concept;
    skos:prefLabel "administrative decision made"@en,
        "vedtak fattet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/event-type>;
    dct:identifier "https://data.norge.no/vocabulary/event-type#administrative-decision-made"^^xsd:anyURI;
    .
  
-<https://data.norge.no/vocabulary/event-type#data-changed> rdf:type skos:Concept;
+<https://data.norge.no/vocabulary/event-type#data-changed>
+   rdf:type skos:Concept;
    skos:prefLabel "data changed"@en,
        "data endret"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/event-type>;
    dct:identifier "https://data.norge.no/vocabulary/event-type#data-changed"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-04 17:06:53
+#### End of the file, 2022-02-07 11:29:14
