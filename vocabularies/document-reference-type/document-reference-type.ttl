@@ -2,19 +2,14 @@
 
 @prefix adms: <http://www.w3.org/ns/adms#> . 
 @prefix dct: <http://purl.org/dc/terms/> . 
-@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
-@prefix owl: <http://www.w3.org/2002/07/owl#> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
-@prefix schema: <http://schema.org/> . 
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
-@prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
-@prefix xkosno: <https://data.norge.no/vocabulary/xkosno#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
 @base <https://data.norge.no/vocabulary/> . 
 
-<https://data.norge.no/vocabulary/document-reference-type> rdf:type skos:ConceptScheme;
+<https://data.norge.no/vocabulary/document-reference-type>
+   rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:title "Document reference type"@en,
        "Dokumentreferansetype"@nb;
@@ -22,11 +17,11 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description "Controlled vocabulary with predefined document reference types"@en,
        "Kontrollert vokabular med predefinerte dokumentreferansetyper"@nb;
-   dct:modified "2022-02-04"^^xsd:date;
+   dct:modified "2022-02-07"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-31"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-02-04 12:37:52
+#### End of the file, 2022-02-07 11:21:16
