@@ -18,7 +18,6 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Controlled vocabulary with predefined business event types"""@en,
        """Kontrollert vokabular med predefinerte virksomhetshendelsestyper"""@nb;
-   xkos:covers <https://data.norge.no/concepts/71fd9d69-ca64-3f9b-a1d3-7ade4d069f8a>;
    uneskos:contains <https://data.norge.no/vocabulary/business-event-type#starting-business>,
        <https://data.norge.no/vocabulary/business-event-type#starting-cross-border-business>,
        <https://data.norge.no/vocabulary/business-event-type#doing-business>,
@@ -226,4 +225,4 @@
    xkos:isPartOf <https://data.norge.no/vocabulary/business-event-type#closing-business>;
    .
  
-#### End of the file, 2022-02-08 13:35:02
+#### End of the file, 2022-02-08 14:01:46
