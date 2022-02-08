@@ -17,26 +17,38 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Upload to static-rdf-server in staging
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v1
-        id: upload-files
+      - name: Upload rdf to static-rdf-server in staging
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2
+        id: upload-rdf
         with:
           ontology-type: "vocabulary"
           ontology: "business-event-type"
-          rdf-file: "vocabularies/business-event-type/business-event-type.ttl"
-          html-file: "vocabularies/business-event-type/business-event-type-nb.html"
-          html-file-language: "nb"
+          file: "vocabularies/business-event-type/business-event-type.ttl"
+          file-type: "text/turtle"
+          file-language: "nb"
           host: "https://data.norge.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
 
-      - name: Upload to static-rdf-server in staging
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v1
-        id: upload-translations
+      - name: Upload html nb to static-rdf-server in staging
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2
+        id: upload-html-nb
         with:
           ontology-type: "vocabulary"
           ontology: "business-event-type"
-          rdf-file: "vocabularies/business-event-type/business-event-type.ttl"
-          html-file: "vocabularies/business-event-type/business-event-type-en.html"
-          html-file-language: "en"
+          file: "vocabularies/business-event-type/business-event-type-nb.html"
+          file-type: "text/html"
+          file-language: "nb"
+          host: "https://data.norge.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
+
+      - name: Upload html en to static-rdf-server in staging
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2
+        id: upload-html-en
+        with:
+          ontology-type: "vocabulary"
+          ontology: "business-event-type"
+          file: "vocabularies/business-event-type/business-event-type-en.html"
+          file-type: "text/html"
+          file-language: "en"
           host: "https://data.norge.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
