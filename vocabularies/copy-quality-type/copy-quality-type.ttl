@@ -19,7 +19,7 @@
    dct:description """Controlled vocabulary with predefined copy quality types"""@en,
        """Kontrollert vokabular med predefinerte kopityper"""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/copy-quality-type#certified-copy>;
-   dct:modified "2022-02-07"^^xsd:date;
+   dct:modified "2022-02-09"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-01"^^xsd:date;
@@ -34,4 +34,4 @@
    dct:identifier "https://data.norge.no/vocabulary/copy-quality-type#certified-copy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-09 09:08:03
+#### End of the file, 2022-02-09 09:55:53
