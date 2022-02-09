@@ -26,7 +26,7 @@
        <https://data.norge.no/vocabulary/criterion-requirement-type#position>,
        <https://data.norge.no/vocabulary/criterion-requirement-type#education>,
        <https://data.norge.no/vocabulary/criterion-requirement-type#economy>;
-   dct:modified "2022-02-09"^^xsd:date;
+   dct:modified "2022-02-08"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-31"^^xsd:date;
@@ -97,4 +97,4 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#economy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-09 10:01:01
+#### End of the file, 2022-02-09 10:13:49
