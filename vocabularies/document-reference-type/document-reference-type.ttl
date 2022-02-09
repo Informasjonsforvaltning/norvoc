@@ -24,9 +24,4 @@
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-<https://data.norge.no/vocabulary/Category1>
-   rdf:type skos:Concept;
-   skos:inScheme <https://data.norge.no/vocabulary/document-reference-type>;
-   .
- 
-#### End of the file, 2022-02-09 10:30:49
+#### End of the file, 2022-02-09 10:34:16
