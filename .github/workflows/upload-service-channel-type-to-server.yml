@@ -43,7 +43,7 @@ jobs:
 
       - name: Upload html en to static-rdf-server
         uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2
-        id: upload-html-nb
+        id: upload-html-en
         with:
           ontology-type: "vocabulary"
           ontology: "service-channel-type"
