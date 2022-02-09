@@ -27,7 +27,7 @@
        <https://data.norge.no/vocabulary/classification-item-change-type#transfer>,
        <https://data.norge.no/vocabulary/classification-item-change-type#code-change>,
        <https://data.norge.no/vocabulary/classification-item-change-type#name-change>;
-   dct:modified "2022-02-07"^^xsd:date;
+   dct:modified "2022-02-09"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-28"^^xsd:date;
@@ -116,4 +116,4 @@
    skos:notation """9""";
    .
  
-#### End of the file, 2022-02-09 09:04:27
+#### End of the file, 2022-02-09 09:28:57
