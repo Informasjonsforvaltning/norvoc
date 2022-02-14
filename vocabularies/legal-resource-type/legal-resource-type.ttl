@@ -7,20 +7,20 @@
 @prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <https://data.norge.no/vocabulary/> . 
+@prefix : <https://data.norge.no/vocabulary/> . 
 
 <https://data.norge.no/vocabulary/legal-resource-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title """Legal resource type"""@en,
-       """Regulativ ressurs type"""@nb;
+   dct:title "Legal resource type"@en,
+       "Regulativ ressurs type"@nb;
    dct:identifier "https://data.norge.no/vocabulary/legal-resource-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description """Controlled vocabulary with predefined legal resource types"""@en,
-       """Kontrollert vokabular med predefinerte regulativ ressurs type"""@nb;
+   dct:description "Controlled vocabulary with predefined legal resource types, primarily meant to be used in connection with describing datasets, services , events etc., in accordance with CPSV-AP-NO, DCAT-AP-NO, ModellDCAT-AP-NO etc."@en,
+       "Kontrollert vokabular med predefinerte regulativ ressurs type, primært ment for å brukes i forbindelse med å beskrive datasett, tjenester, hendelser etc., i henhold til CPSV-AP-NO, DCAT-AP-NO, ModellDCAT-AP-NO etc."@nb;
    uneskos:contains <https://data.norge.no/vocabulary/legal-resource-type#act>,
        <https://data.norge.no/vocabulary/legal-resource-type#regulation>;
-   dct:modified "2022-02-09"^^xsd:date;
+   dct:modified "2022-02-14"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-01"^^xsd:date;
@@ -29,18 +29,18 @@
  
 <https://data.norge.no/vocabulary/legal-resource-type#act>
    rdf:type skos:Concept;
-   skos:prefLabel """act"""@en,
-       """lov"""@nb;
+   skos:prefLabel "act"@en,
+       "lov"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/legal-resource-type>;
    dct:identifier "https://data.norge.no/vocabulary/legal-resource-type#act"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/legal-resource-type#regulation>
    rdf:type skos:Concept;
-   skos:prefLabel """regulation"""@en,
-       """forskrift"""@nb;
+   skos:prefLabel "regulation"@en,
+       "forskrift"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/legal-resource-type>;
    dct:identifier "https://data.norge.no/vocabulary/legal-resource-type#regulation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-09 10:48:30
+#### End of the file, 2022-02-14 13:54:41
