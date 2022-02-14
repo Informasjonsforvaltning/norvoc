@@ -8,24 +8,25 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
 @prefix modelldcatno: <https://data.norge.no/vocabulary/modelldcatno#> . 
-@base <https://data.norge.no/vocabulary/> . 
+@prefix : <https://data.norge.no/vocabulary/> . 
 
 <https://data.norge.no/vocabulary/information-model-type>
    rdf:type skos:ConceptScheme,
        modelldcatno:CodeList;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title """Information model type"""@en,
-       """Informasjonsmodelltype"""@nb;
+   dct:title "Information model type"@en,
+       "Informasjonsmodelltype"@nb;
    dct:identifier "https://data.norge.no/vocabulary/information-model-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description """Controlled vocabulary with predefined information model types, primarily meant to be used in connection with describing information models in accordance with ModellDCAT-AP-NO."""@en,
-       """Kontrollert vokabular med predefinerte informasjonsmodelltyper, primært ment for å brukes ifm. beskrivelse av informasjonsmodeller i henhold til ModellDCAT-AP-NO."""@nb;
+   dct:description "Controlled vocabulary with predefined information model types, primarily meant to be used in connection with describing information models in accordance with ModellDCAT-AP-NO."@en,
+       "Kontrollert vokabular med predefinerte informasjonsmodelltyper, primært ment for å brukes i forbindelse med å beskrive informasjonsmodeller i henhold til ModellDCAT-AP-NO."@nb;
    xkos:covers <https://data.norge.no/concepts/9ffa9f88-1b5b-466a-bafb-e467b0438c0b>;
    uneskos:contains <https://data.norge.no/vocabulary/information-model-type#application-model>,
        <https://data.norge.no/vocabulary/information-model-type#common-shared-model>,
        <https://data.norge.no/vocabulary/information-model-type#conceptual-model>,
        <https://data.norge.no/vocabulary/information-model-type#logical-model>,
        <https://data.norge.no/vocabulary/information-model-type#physical-model>;
+   dct:modified "2022-02-14"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-11"^^xsd:date;
@@ -35,8 +36,8 @@
 <https://data.norge.no/vocabulary/information-model-type#application-model>
    rdf:type skos:Concept,
        modelldcatno:CodeElement;
-   skos:prefLabel """application model"""@en,
-       """anvendelsesmodell"""@nb;
+   skos:prefLabel "application model"@en,
+       "anvendelsesmodell"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/information-model-type>;
    dct:identifier "https://data.norge.no/vocabulary/information-model-type#application-model"^^xsd:anyURI;
    .
@@ -44,8 +45,8 @@
 <https://data.norge.no/vocabulary/information-model-type#common-shared-model>
    rdf:type skos:Concept,
        modelldcatno:CodeElement;
-   skos:prefLabel """common shared model"""@en,
-       """fellesmodell"""@nb;
+   skos:prefLabel "common shared model"@en,
+       "fellesmodell"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/information-model-type>;
    dct:identifier "https://data.norge.no/vocabulary/information-model-type#common-shared-model"^^xsd:anyURI;
    .
@@ -53,8 +54,8 @@
 <https://data.norge.no/vocabulary/information-model-type#conceptual-model>
    rdf:type skos:Concept,
        modelldcatno:CodeElement;
-   skos:prefLabel """conceptual model"""@en,
-       """konseptuell modell"""@nb;
+   skos:prefLabel "conceptual model"@en,
+       "konseptuell modell"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/information-model-type>;
    dct:identifier "https://data.norge.no/vocabulary/information-model-type#conceptual-model"^^xsd:anyURI;
    .
@@ -62,8 +63,8 @@
 <https://data.norge.no/vocabulary/information-model-type#logical-model>
    rdf:type skos:Concept,
        modelldcatno:CodeElement;
-   skos:prefLabel """logical model"""@en,
-       """logisk modell"""@nb;
+   skos:prefLabel "logical model"@en,
+       "logisk modell"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/information-model-type>;
    dct:identifier "https://data.norge.no/vocabulary/information-model-type#logical-model"^^xsd:anyURI;
    .
@@ -71,10 +72,10 @@
 <https://data.norge.no/vocabulary/information-model-type#physical-model>
    rdf:type skos:Concept,
        modelldcatno:CodeElement;
-   skos:prefLabel """physical model"""@en,
-       """fysisk modell"""@nb;
+   skos:prefLabel "physical model"@en,
+       "fysisk modell"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/information-model-type>;
    dct:identifier "https://data.norge.no/vocabulary/information-model-type#physical-model"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-11 12:35:16
+#### End of the file, 2022-02-14 13:48:45
