@@ -7,17 +7,17 @@
 @prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@base <https://data.norge.no/vocabulary/> . 
+@prefix : <https://data.norge.no/vocabulary/> . 
 
 <https://data.norge.no/vocabulary/life-event-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title """Life event type"""@en,
-       """Livshendelsestype"""@nb;
+   dct:title "Life event type"@en,
+       "Livshendelsestype"@nb;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description """Controlled vocabulary with predefined life event types"""@en,
-       """Kontrollert vokabular med predefinerte livshendelsestyper"""@nb;
+   dct:description "Controlled vocabulary with predefined life event types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."@en,
+       "Kontrollert vokabular med predefinerte livshendelsestyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."@nb;
    xkos:covers <https://data.norge.no/concepts/9b19d5ce-87b3-4584-a875-e7cff3ad6740>;
    uneskos:contains <https://data.norge.no/vocabulary/life-event-type#having-a-child>,
        <https://data.norge.no/vocabulary/life-event-type#becoming-a-caretaker>,
@@ -34,7 +34,7 @@
        <https://data.norge.no/vocabulary/life-event-type#facing-a-crime>,
        <https://data.norge.no/vocabulary/life-event-type#retirement>,
        <https://data.norge.no/vocabulary/life-event-type#death-of-a-relative>;
-   dct:modified "2022-02-09"^^xsd:date;
+   dct:modified "2022-02-14"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-01"^^xsd:date;
@@ -43,148 +43,148 @@
  
 <https://data.norge.no/vocabulary/life-event-type#having-a-child>
    rdf:type skos:Concept;
-   skos:prefLabel """having a child"""@en,
-       """å få barn"""@nb;
+   skos:prefLabel "having a child"@en,
+       "å få barn"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to becoming a caretaker for a child."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to becoming a caretaker for a child."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#having-a-child"^^xsd:anyURI;
-   skos:example """For instance in case of giving birth, adopting, receiving a foster child, etc."""@en;
+   skos:example "For instance in case of giving birth, adopting, receiving a foster child, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#becoming-a-caretaker>
    rdf:type skos:Concept;
-   skos:prefLabel """becoming a (social) caretaker"""@en,
-       """å bli en omsorgsperson"""@nb;
+   skos:prefLabel "becoming a (social) caretaker"@en,
+       "å bli en omsorgsperson"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to the situation where you need to take care of another person (other than when you get a child)."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to the situation where you need to take care of another person (other than when you get a child)."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#becoming-a-caretaker"^^xsd:anyURI;
-   skos:example """For instance for an elder, a disabled person, etc."""@en;
+   skos:example "For instance for an elder, a disabled person, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#starting-education>
    rdf:type skos:Concept;
-   skos:prefLabel """starting education"""@en,
-       """å ta utdanning"""@nb;
+   skos:prefLabel "starting education"@en,
+       "å ta utdanning"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups any (public) service related to education."""@en;
+   xkos:coreContentNote "This life event groups any (public) service related to education."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#starting-education"^^xsd:anyURI;
-   skos:example """For example pre-school education, elementary school, higher education and university, etc."""@en;
+   skos:example "For example pre-school education, elementary school, higher education and university, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#looking-for-a-new-job>
    rdf:type skos:Concept;
-   skos:prefLabel """looking for a new job"""@en,
-       """å søke ny jobb"""@nb;
+   skos:prefLabel "looking for a new job"@en,
+       "å søke ny jobb"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services for when someone looks for a new job or starts a new job."""@en;
+   xkos:coreContentNote "This life event groups (public) services for when someone looks for a new job or starts a new job."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#looking-for-a-new-job"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#losing-or-quitting-a-job>
    rdf:type skos:Concept;
-   skos:prefLabel """losing/quitting a job"""@en,
-       """å miste / slutte i en jobb"""@nb;
+   skos:prefLabel "losing/quitting a job"@en,
+       "å miste / slutte i en jobb"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to the situation when someone leaves or quits a particular jobs on his own, or when someone loses his job."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to the situation when someone leaves or quits a particular jobs on his own, or when someone loses his job."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#losing-or-quitting-a-job"^^xsd:anyURI;
-   skos:example """For instance getting fired, collective dismissal, in case of failure of the company, etc."""@en;
+   skos:example "For instance getting fired, collective dismissal, in case of failure of the company, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#looking-for-a-place-to-live>
    rdf:type skos:Concept;
-   skos:prefLabel """looking for a place to live"""@en,
-       """å finne et sted å bo"""@nb;
+   skos:prefLabel "looking for a place to live"@en,
+       "å finne et sted å bo"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to a person’s place of living."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to a person’s place of living."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#looking-for-a-place-to-live"^^xsd:anyURI;
-   skos:example """For instance, changing residence, buying a house or a piece of land, building, renting a house or apartment, etc."""@en;
+   skos:example "For instance, changing residence, buying a house or a piece of land, building, renting a house or apartment, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#changing-relationship-status>
    rdf:type skos:Concept;
-   skos:prefLabel """changing relationship status"""@en,
-       """å endre silvistand"""@nb;
+   skos:prefLabel "changing relationship status"@en,
+       "å endre silvistand"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to a person’s official relationship."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to a person’s official relationship."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#changing-relationship-status"^^xsd:anyURI;
-   skos:example """For instance marriage, registered partnership, divorce, etc."""@en;
+   skos:example "For instance marriage, registered partnership, divorce, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#driving-a-vehicle>
    rdf:type skos:Concept;
-   skos:prefLabel """driving a vehicle"""@en,
-       """å kjøre et kjøretøy"""@nb;
+   skos:prefLabel "driving a vehicle"@en,
+       "å kjøre et kjøretøy"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to driving a vehicle, for instance car, motorcycle."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to driving a vehicle, for instance car, motorcycle."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#driving-a-vehicle"^^xsd:anyURI;
-   skos:example """Some example public services are getting your driver license, following driving lessons, registering your car, etc."""@en;
+   skos:example "Some example public services are getting your driver license, following driving lessons, registering your car, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#travelling-abroad>
    rdf:type skos:Concept;
-   skos:prefLabel """travelling abroad"""@en,
-       """å reise utenlands"""@nb;
+   skos:prefLabel "travelling abroad"@en,
+       "å reise utenlands"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life events groups (public) services related to what you need to do when travelling abroad."""@en;
+   xkos:coreContentNote "This life events groups (public) services related to what you need to do when travelling abroad."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#travelling-abroad"^^xsd:anyURI;
-   skos:example """For instance getting an international passport or driving license, getting a visa, getting vaccination, etc."""@en;
+   skos:example "For instance getting an international passport or driving license, getting a visa, getting vaccination, etc."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#moving-to-from-the-country>
    rdf:type skos:Concept;
-   skos:prefLabel """moving to/from the country"""@en,
-       """å flytte til/fra landet"""@nb;
+   skos:prefLabel "moving to/from the country"@en,
+       "å flytte til/fra landet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services that relate to when someone moves from one country to another."""@en;
+   xkos:coreContentNote "This life event groups (public) services that relate to when someone moves from one country to another."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#moving-to-from-the-country"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#going-into-military-service>
    rdf:type skos:Concept;
-   skos:prefLabel """going into military service"""@en,
-       """å utføre verneplikttjeneste"""@nb;
+   skos:prefLabel "going into military service"@en,
+       "å utføre verneplikttjeneste"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to taking up a mandatory military or civil service."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to taking up a mandatory military or civil service."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#going-into-military-service"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#facing-an-emergency-or-health-problem>
    rdf:type skos:Concept;
-   skos:prefLabel """facing an emergency / health problem"""@en,
-       """å møte en nødsituasjon / et helseproblem"""@nb;
+   skos:prefLabel "facing an emergency / health problem"@en,
+       "å møte en nødsituasjon / et helseproblem"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to when someone faces an emergency."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to when someone faces an emergency."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#facing-an-emergency-or-health-problem"^^xsd:anyURI;
-   skos:example """For instance in the case of an accident, or a severe health problem, for instance getting disabled."""@en;
+   skos:example "For instance in the case of an accident, or a severe health problem, for instance getting disabled."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#facing-a-crime>
    rdf:type skos:Concept;
-   skos:prefLabel """facing a crime"""@en,
-       """å møte kriminalitet"""@nb;
+   skos:prefLabel "facing a crime"@en,
+       "å møte kriminalitet"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to a crime."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to a crime."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#facing-a-crime"^^xsd:anyURI;
-   skos:example """For instance in case you are the committer of that crime, or the victim or witness of a particular crime."""@en;
+   skos:example "For instance in case you are the committer of that crime, or the victim or witness of a particular crime."@en;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#retirement>
    rdf:type skos:Concept;
-   skos:prefLabel """retirement"""@en,
-       """å bli pensjonist"""@nb;
+   skos:prefLabel "retirement"@en,
+       "å bli pensjonist"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services related to when someone retires from his job or becomes a senior."""@en;
+   xkos:coreContentNote "This life event groups (public) services related to when someone retires from his job or becomes a senior."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#retirement"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/life-event-type#death-of-a-relative>
    rdf:type skos:Concept;
-   skos:prefLabel """death of a relative"""@en,
-       """dødsfall i familie/slekt"""@nb;
+   skos:prefLabel "death of a relative"@en,
+       "dødsfall i familie/slekt"@nb;
    skos:inScheme <https://data.norge.no/vocabulary/life-event-type>;
-   xkos:coreContentNote """This life event groups (public) services that relate to when a relative passes a way, and cover the (public) services directly related to the decease of that person, as well as related to settling inheritance and donations."""@en;
+   xkos:coreContentNote "This life event groups (public) services that relate to when a relative passes a way, and cover the (public) services directly related to the decease of that person, as well as related to settling inheritance and donations."@en;
    dct:identifier "https://data.norge.no/vocabulary/life-event-type#death-of-a-relative"^^xsd:anyURI;
-   skos:example """For instance notifying the authorities, arranging the funeral, etc."""@en;
+   skos:example "For instance notifying the authorities, arranging the funeral, etc."@en;
    .
  
-#### End of the file, 2022-02-09 11:14:44
+#### End of the file, 2022-02-14 14:00:41
