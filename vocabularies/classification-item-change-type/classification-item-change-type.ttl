@@ -11,8 +11,8 @@
 <https://data.norge.no/vocabulary/classification-item-change-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title """Classification item change types"""@en,
-       """Kategoriendringstyper"""@nb;
+   dct:title """Classification item change type"""@en,
+       """Kategoriendringstype"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Controlled vocabulary with predefined classification item change types, primarily meant to be used in connection with describing classifications in accordance with XKOS-AP-NO."""@en,
@@ -115,4 +115,4 @@
    skos:notation """9""";
    .
  
-#### End of the file, 2022-02-15 08:08:48
+#### End of the file, 2022-02-15 21:01:19
