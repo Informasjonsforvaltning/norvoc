@@ -7,21 +7,20 @@
 @prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@prefix : <https://data.norge.no/vocabulary/> . 
 
 <https://data.norge.no/vocabulary/event-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title "Event type"@en,
-       "Hendelsestype"@nb;
+   dct:title """Event type"""@en,
+       """Hendelsestype"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/event-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "Controlled vocabulary with predefined event types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."@en,
-       "Kontrollert vokabular med predefinerte hendelsestyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."@nb;
+   dct:description """Controlled vocabulary with predefined event types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."""@en,
+       """Kontrollert vokabular med predefinerte hendelsestyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."""@nb;
    xkos:covers <https://data.norge.no/concepts/db48fa77-3f47-4d58-b4a3-41569f149c1a>;
    uneskos:contains <https://data.norge.no/vocabulary/event-type#administrative-decision-made>,
        <https://data.norge.no/vocabulary/event-type#data-changed>;
-   dct:modified "2022-02-14"^^xsd:date;
+   dct:modified "2022-02-15"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-31"^^xsd:date;
@@ -30,18 +29,18 @@
  
 <https://data.norge.no/vocabulary/event-type#administrative-decision-made>
    rdf:type skos:Concept;
-   skos:prefLabel "administrative decision made"@en,
-       "vedtak fattet"@nb;
+   skos:prefLabel """administrative decision made"""@en,
+       """vedtak fattet"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/event-type>;
    dct:identifier "https://data.norge.no/vocabulary/event-type#administrative-decision-made"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/event-type#data-changed>
    rdf:type skos:Concept;
-   skos:prefLabel "data changed"@en,
-       "data endret"@nb;
+   skos:prefLabel """data changed"""@en,
+       """data endret"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/event-type>;
    dct:identifier "https://data.norge.no/vocabulary/event-type#data-changed"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-14 13:40:48
+#### End of the file, 2022-02-15 08:22:15
