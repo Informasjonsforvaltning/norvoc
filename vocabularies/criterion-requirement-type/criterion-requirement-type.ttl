@@ -7,17 +7,16 @@
 @prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@prefix : <https://data.norge.no/vocabulary/> . 
 
 <https://data.norge.no/vocabulary/criterion-requirement-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title "Criterion requirement type"@en,
-       "Vilkårstype"@nb;
+   dct:title """Criterion requirement type"""@en,
+       """Vilkårstype"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "Controlled vocabulary with predefined criterion requirement types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."@en,
-       "Kontrollert vokabular med predefinerte vilkårstype, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."@nb;
+   dct:description """Controlled vocabulary with predefined criterion requirement types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."""@en,
+       """Kontrollert vokabular med predefinerte vilkårstype, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/criterion-requirement-type#age>,
        <https://data.norge.no/vocabulary/criterion-requirement-type#attestation>,
        <https://data.norge.no/vocabulary/criterion-requirement-type#health>,
@@ -26,7 +25,7 @@
        <https://data.norge.no/vocabulary/criterion-requirement-type#position>,
        <https://data.norge.no/vocabulary/criterion-requirement-type#education>,
        <https://data.norge.no/vocabulary/criterion-requirement-type#economy>;
-   dct:modified "2022-02-14"^^xsd:date;
+   dct:modified "2022-02-15"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-31"^^xsd:date;
@@ -35,66 +34,66 @@
  
 <https://data.norge.no/vocabulary/criterion-requirement-type#age>
    rdf:type skos:Concept;
-   skos:prefLabel "age"@en,
-       "alder"@nb;
+   skos:prefLabel """age"""@en,
+       """alder"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/criterion-requirement-type>;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#age"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/criterion-requirement-type#attestation>
    rdf:type skos:Concept;
-   skos:prefLabel "attestation"@en,
-       "attest"@nb;
+   skos:prefLabel """attestation"""@en,
+       """attest"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/criterion-requirement-type>;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#attestation"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/criterion-requirement-type#health>
    rdf:type skos:Concept;
-   skos:prefLabel "health"@en,
-       "helse"@nb;
+   skos:prefLabel """health"""@en,
+       """helse"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/criterion-requirement-type>;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#health"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/criterion-requirement-type#competance>
    rdf:type skos:Concept;
-   skos:prefLabel "competance"@en,
-       "kompetanse"@nb;
+   skos:prefLabel """competance"""@en,
+       """kompetanse"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/criterion-requirement-type>;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#competance"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/criterion-requirement-type#certification>
    rdf:type skos:Concept;
-   skos:prefLabel "certification"@en,
-       "sertifisering"@nb;
+   skos:prefLabel """certification"""@en,
+       """sertifisering"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/criterion-requirement-type>;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#certification"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/criterion-requirement-type#position>
    rdf:type skos:Concept;
-   skos:prefLabel "position"@en,
-       "stilling"@nb;
+   skos:prefLabel """position"""@en,
+       """stilling"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/criterion-requirement-type>;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#position"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/criterion-requirement-type#education>
    rdf:type skos:Concept;
-   skos:prefLabel "education"@en,
-       "utdanning"@nb;
+   skos:prefLabel """education"""@en,
+       """utdanning"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/criterion-requirement-type>;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#education"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/criterion-requirement-type#economy>
    rdf:type skos:Concept;
-   skos:prefLabel "economy"@en,
-       "økonomi"@nb;
+   skos:prefLabel """economy"""@en,
+       """økonomi"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/criterion-requirement-type>;
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#economy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-14 13:35:29
+#### End of the file, 2022-02-15 08:17:41
