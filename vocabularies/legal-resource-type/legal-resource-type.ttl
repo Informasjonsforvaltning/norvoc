@@ -16,7 +16,7 @@
    dct:identifier "https://data.norge.no/vocabulary/legal-resource-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Controlled vocabulary with predefined legal resource types, primarily meant to be used in connection with describing datasets, services , events etc., in accordance with CPSV-AP-NO, DCAT-AP-NO, ModellDCAT-AP-NO etc."""@en,
-       """Kontrollert vokabular med predefinerte regulativ ressurs type, primært ment for å brukes i forbindelse med å beskrive datasett, tjenester, hendelser etc., i henhold til CPSV-AP-NO, DCAT-AP-NO, ModellDCAT-AP-NO etc."""@nb;
+       """Kontrollert vokabular med predefinerte regulativ ressurs typer, primært ment for å brukes i forbindelse med å beskrive datasett, tjenester, hendelser etc., i henhold til CPSV-AP-NO, DCAT-AP-NO, ModellDCAT-AP-NO etc."""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/legal-resource-type#act>,
        <https://data.norge.no/vocabulary/legal-resource-type#regulation>;
    dct:modified "2022-02-15"^^xsd:date;
@@ -42,4 +42,4 @@
    dct:identifier "https://data.norge.no/vocabulary/legal-resource-type#regulation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-15 08:29:01
+#### End of the file, 2022-02-15 12:11:18
