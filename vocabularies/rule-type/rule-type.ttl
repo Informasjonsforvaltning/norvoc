@@ -12,7 +12,7 @@
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "2"^^xsd:positiveInteger;
    dct:title """Rule type"""@en,
-       """Regeltyper"""@nb;
+       """Regeltype"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/rule-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Controlled vocabulary with predefined rule types, primarily meant to be used in connection with describing dataset, services, events etc., in accordance with CPSV-AP-NO, DCAT-AP-NO etc."""@en,
@@ -81,4 +81,4 @@
    dct:identifier "https://data.norge.no/vocabulary/rule-type#case-management-rules"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-15 08:40:18
+#### End of the file, 2022-02-15 12:44:24
