@@ -6,22 +6,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@prefix : <https://example.org/> . 
 
 <https://example.org/service-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title "Service type"@en,
-       "Tjenestetype"@nb;
+   dct:title """Service type"""@en,
+       """Tjenestetype"""@nb;
    dct:identifier "https://example.org/service-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "Controlled vocabulary with predefined service types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."@en,
-       "Kontrollert vokabular med predefinerte tjenestetyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."@nb;
-   dct:modified "2022-02-14"^^xsd:date;
+   dct:description """Controlled vocabulary with predefined service types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."""@en,
+       """Kontrollert vokabular med predefinerte tjenestetyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."""@nb;
+   dct:modified "2022-02-15"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-02-14 14:20:16
+#### End of the file, 2022-02-15 08:47:37
