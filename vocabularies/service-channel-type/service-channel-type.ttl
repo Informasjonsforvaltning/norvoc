@@ -11,7 +11,7 @@
 <https://data.norge.no/vocabulary/service-channel-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title """Channel type"""@en,
+   dct:title """Service channel type"""@en,
        """Tjenestekanaltype"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/service-channel-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
@@ -123,4 +123,4 @@
    dct:identifier "https://data.norge.no/vocabulary/service-channel-type#client-location"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-15 08:42:13
+#### End of the file, 2022-02-15 12:51:58
