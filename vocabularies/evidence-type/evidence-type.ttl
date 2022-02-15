@@ -7,22 +7,21 @@
 @prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@prefix : <https://data.norge.no/vocabulary/> . 
 
 <https://data.norge.no/vocabulary/evidence-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title "Evidence type"@en,
-       "Dokumentasjonstype"@nb;
+   dct:title """Evidence type"""@en,
+       """Dokumentasjonstype"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/evidence-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "Controlled vocabulary with predefined evidence types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."@en,
-       "Kontrollert vokabular med predefinerte dokumentasjonstyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."@nb;
+   dct:description """Controlled vocabulary with predefined evidence types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."""@en,
+       """Kontrollert vokabular med predefinerte dokumentasjonstyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/evidence-type#attestation>,
        <https://data.norge.no/vocabulary/evidence-type#declaration>,
        <https://data.norge.no/vocabulary/evidence-type#protocol>,
        <https://data.norge.no/vocabulary/evidence-type#certificate>;
-   dct:modified "2022-02-14"^^xsd:date;
+   dct:modified "2022-02-15"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
@@ -31,34 +30,34 @@
  
 <https://data.norge.no/vocabulary/evidence-type#attestation>
    rdf:type skos:Concept;
-   skos:prefLabel "attestation"@en,
-       "attest"@nb;
+   skos:prefLabel """attestation"""@en,
+       """attest"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/evidence-type>;
    dct:identifier "https://data.norge.no/vocabulary/evidence-type#attestation"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/evidence-type#declaration>
    rdf:type skos:Concept;
-   skos:prefLabel "declaration"@en,
-       "erklæring"@nb;
+   skos:prefLabel """declaration"""@en,
+       """erklæring"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/evidence-type>;
    dct:identifier "https://data.norge.no/vocabulary/evidence-type#declaration"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/evidence-type#protocol>
    rdf:type skos:Concept;
-   skos:prefLabel "protocol"@en,
-       "protokoll"@nb;
+   skos:prefLabel """protocol"""@en,
+       """protokoll"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/evidence-type>;
    dct:identifier "https://data.norge.no/vocabulary/evidence-type#protocol"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/evidence-type#certificate>
    rdf:type skos:Concept;
-   skos:prefLabel "certificate"@en,
-       "sertifikat"@nb;
+   skos:prefLabel """certificate"""@en,
+       """sertifikat"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/evidence-type>;
    dct:identifier "https://data.norge.no/vocabulary/evidence-type#certificate"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-14 13:43:33
+#### End of the file, 2022-02-15 08:24:29
