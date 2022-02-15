@@ -7,17 +7,16 @@
 @prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@prefix : <https://data.norge.no/vocabulary/> . 
 
 <https://data.norge.no/vocabulary/service-output-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title "Service output type"@en,
-       "Tjenesteresultattype"@nb;
+   dct:title """Service output type"""@en,
+       """Tjenesteresultattype"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "Controlled vocabulary with predefined output types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."@en,
-       "Kontrollert vokabular med predefinerte tjenesteresultattyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."@nb;
+   dct:description """Controlled vocabulary with predefined output types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."""@en,
+       """Kontrollert vokabular med predefinerte tjenesteresultattyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/service-output-type#recogntion>,
        <https://data.norge.no/vocabulary/service-output-type#declaration>,
        <https://data.norge.no/vocabulary/service-output-type#physical-object>,
@@ -26,7 +25,7 @@
        <https://data.norge.no/vocabulary/service-output-type#permit>,
        <https://data.norge.no/vocabulary/service-output-type#financial-benefit>,
        <https://data.norge.no/vocabulary/service-output-type#financial-obligation>;
-   dct:modified "2022-02-14"^^xsd:date;
+   dct:modified "2022-02-15"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
@@ -35,66 +34,66 @@
  
 <https://data.norge.no/vocabulary/service-output-type#recogntion>
    rdf:type skos:Concept;
-   skos:prefLabel "recognition"@en,
-       "anerkjennelse"@nb;
+   skos:prefLabel """recognition"""@en,
+       """anerkjennelse"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type#recogntion"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/service-output-type#declaration>
    rdf:type skos:Concept;
-   skos:prefLabel "declaration"@en,
-       "erklæring"@nb;
+   skos:prefLabel """declaration"""@en,
+       """erklæring"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type#declaration"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/service-output-type#physical-object>
    rdf:type skos:Concept;
-   skos:prefLabel "physical object"@en,
-       "fysisk objekt"@nb;
+   skos:prefLabel """physical object"""@en,
+       """fysisk objekt"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type#physical-object"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/service-output-type#identifier>
    rdf:type skos:Concept;
-   skos:prefLabel "identifier"@en,
-       "identifikator eller aksesskode"@nb;
+   skos:prefLabel """identifier"""@en,
+       """identifikator eller aksesskode"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type#identifier"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/service-output-type#rights>
    rdf:type skos:Concept;
-   skos:prefLabel "rights"@en,
-       "rettighet"@nb;
+   skos:prefLabel """rights"""@en,
+       """rettighet"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type#rights"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/service-output-type#permit>
    rdf:type skos:Concept;
-   skos:prefLabel "permit"@en,
-       "tillatelse"@nb;
+   skos:prefLabel """permit"""@en,
+       """tillatelse"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type#permit"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/service-output-type#financial-benefit>
    rdf:type skos:Concept;
-   skos:prefLabel "financial benefit"@en,
-       "økonomisk fordel"@nb;
+   skos:prefLabel """financial benefit"""@en,
+       """økonomisk fordel"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type#financial-benefit"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/service-output-type#financial-obligation>
    rdf:type skos:Concept;
-   skos:prefLabel "financial obligation"@en,
-       "økonomisk forpliktelse"@nb;
+   skos:prefLabel """financial obligation"""@en,
+       """økonomisk forpliktelse"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/service-output-type>;
    dct:identifier "https://data.norge.no/vocabulary/service-output-type#financial-obligation"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-14 14:17:24
+#### End of the file, 2022-02-15 08:45:31
