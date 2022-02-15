@@ -16,7 +16,7 @@
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Controlled vocabulary with predefined classification item change types, primarily meant to be used in connection with describing classifications in accordance with XKOS-AP-NO."""@en,
-       """Kontrollert vokabular med pedefinerte kategoriendringstyper, primært ment for å brukes i forbindelse med å beskrive klassifikasjoner i henhold til XKOS-AP-NO."""@nb;
+       """Kontrollert vokabular med predefinerte kategoriendringstyper, primært ment for å brukes i forbindelse med å beskrive klassifikasjoner i henhold til XKOS-AP-NO."""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/classification-item-change-type#deletion>,
        <https://data.norge.no/vocabulary/classification-item-change-type#creation>,
        <https://data.norge.no/vocabulary/classification-item-change-type#merging>,
@@ -115,4 +115,4 @@
    skos:notation """9""";
    .
  
-#### End of the file, 2022-02-15 21:01:19
+#### End of the file, 2022-02-15 21:06:25
