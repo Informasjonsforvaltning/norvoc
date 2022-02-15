@@ -7,23 +7,22 @@
 @prefix uneskos: <http://purl.org/umu/uneskos#> . 
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> . 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
-@prefix : <https://data.norge.no/vocabulary/> . 
 
 <https://data.norge.no/vocabulary/rule-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "2"^^xsd:positiveInteger;
-   dct:title "Rule type"@en,
-       "Regeltyper"@nb;
+   dct:title """Rule type"""@en,
+       """Regeltyper"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/rule-type"^^xsd:anyURI;
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
-   dct:description "Controlled vocabulary with predefined rule types, primarily meant to be used in connection with describing dataset, services, events etc., in accordance with CPSV-AP-NO, DCAT-AP-NO etc."@en,
-       "Kontrollert vokabular med predefinerte regeltyper, primært ment for å brukes i forbindelse med å beskrive datasett, tjenester, hendelser etc., i henhold til CPSV-AP-NO, DCAT-AP-NO etc."@nb;
+   dct:description """Controlled vocabulary with predefined rule types, primarily meant to be used in connection with describing dataset, services, events etc., in accordance with CPSV-AP-NO, DCAT-AP-NO etc."""@en,
+       """Kontrollert vokabular med predefinerte regeltyper, primært ment for å brukes i forbindelse med å beskrive datasett, tjenester, hendelser etc., i henhold til CPSV-AP-NO, DCAT-AP-NO etc."""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/rule-type#rules-regarding-data-processing>,
        <https://data.norge.no/vocabulary/rule-type#disclosure-rule>,
        <https://data.norge.no/vocabulary/rule-type#non-disclosure-rule>,
        <https://data.norge.no/vocabulary/rule-type#data-processing-rule>,
        <https://data.norge.no/vocabulary/rule-type#case-management-rules>;
-   dct:modified "2022-02-14"^^xsd:date;
+   dct:modified "2022-02-15"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
@@ -32,8 +31,8 @@
  
 <https://data.norge.no/vocabulary/rule-type#rules-regarding-data-processing>
    rdf:type skos:Concept;
-   skos:prefLabel "rules regarding data processing"@en,
-       "databehandlingsregler"@nb;
+   skos:prefLabel """rules regarding data processing"""@en,
+       """databehandlingsregler"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/rule-type>;
    dct:identifier "https://data.norge.no/vocabulary/rule-type#rules-regarding-data-processing"^^xsd:anyURI;
    xkos:generalizes <https://data.norge.no/vocabulary/rule-type#disclosure-rule>,
@@ -43,43 +42,43 @@
  
 <https://data.norge.no/vocabulary/rule-type#disclosure-rule>
    rdf:type skos:Concept;
-   skos:prefLabel "disclosure-rule"@en,
-       "utleveringsregel"@nb;
+   skos:prefLabel """disclosure-rule"""@en,
+       """utleveringsregel"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/rule-type>;
-   xkos:coreContentNote "includes rules which regulate disclosure of a resource (e.g. a dataset)"@en,
-       "inkluderer regler som regulerer utlevering av en ressurs (f.eks. et datasett)"@nb;
+   xkos:coreContentNote """includes rules which regulate disclosure of a resource (e.g. a dataset)"""@en,
+       """inkluderer regler som regulerer utlevering av en ressurs (f.eks. et datasett)"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/rule-type#disclosure-rule"^^xsd:anyURI;
    xkos:specializes <https://data.norge.no/vocabulary/rule-type#rules-regarding-data-processing>;
    .
  
 <https://data.norge.no/vocabulary/rule-type#non-disclosure-rule>
    rdf:type skos:Concept;
-   skos:prefLabel "non-disclosure rule"@en,
-       "skjermingsregel"@nb;
+   skos:prefLabel """non-disclosure rule"""@en,
+       """skjermingsregel"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/rule-type>;
-   xkos:coreContentNote "includes rules which regulate non-disclosure of a resource (e.g. a dataset)"@en,
-       "inkluderer regler som regulerer skjerming av en ressurs (f.eks. et datasett)"@nb;
+   xkos:coreContentNote """includes rules which regulate non-disclosure of a resource (e.g. a dataset)"""@en,
+       """inkluderer regler som regulerer skjerming av en ressurs (f.eks. et datasett)"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/rule-type#non-disclosure-rule"^^xsd:anyURI;
    xkos:specializes <https://data.norge.no/vocabulary/rule-type#rules-regarding-data-processing>;
    .
  
 <https://data.norge.no/vocabulary/rule-type#data-processing-rule>
    rdf:type skos:Concept;
-   skos:prefLabel "data processing rule"@en,
-       "behandlingsgrunnlag"@nb;
+   skos:prefLabel """data processing rule"""@en,
+       """behandlingsgrunnlag"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/rule-type>;
-   xkos:coreContentNote "includes rules which regulate processing of data, especially personal data"@en,
-       "inkluderer regler som regulerer behandling av data, spesielt personopplysninger"@nb;
+   xkos:coreContentNote """includes rules which regulate processing of data, especially personal data"""@en,
+       """inkluderer regler som regulerer behandling av data, spesielt personopplysninger"""@nb;
    dct:identifier "https://data.norge.no/vocabulary/rule-type#data-processing-rule"^^xsd:anyURI;
    xkos:specializes <https://data.norge.no/vocabulary/rule-type#rules-regarding-data-processing>;
    .
  
 <https://data.norge.no/vocabulary/rule-type#case-management-rules>
    rdf:type skos:Concept;
-   skos:prefLabel "case mananegement rules"@en,
-       "saksbehandlingsregler"@nb;
+   skos:prefLabel """case mananegement rules"""@en,
+       """saksbehandlingsregler"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/rule-type>;
    dct:identifier "https://data.norge.no/vocabulary/rule-type#case-management-rules"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-14 14:11:27
+#### End of the file, 2022-02-15 08:40:18
