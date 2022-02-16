@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Upload rdf to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2.1
         id: upload-rdf
         with:
           ontology-type: "vocabulary"
@@ -30,7 +30,7 @@ jobs:
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
 
       - name: Upload html nb to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2.1
         id: upload-html-nb
         with:
           ontology-type: "vocabulary"
@@ -42,7 +42,7 @@ jobs:
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
 
       - name: Upload html en to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2.1
         id: upload-html-en
         with:
           ontology-type: "vocabulary"
