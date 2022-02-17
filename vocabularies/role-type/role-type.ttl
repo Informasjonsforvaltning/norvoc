@@ -20,10 +20,10 @@
        """Kontrollert vokabular med predefinerte rolletyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/role-type#service-producer>,
        <https://data.norge.no/vocabulary/role-type#service-provider>,
-       <https://data.norge.no/vocabulary/role-type#end-user>,
+       <https://data.norge.no/vocabulary/role-type#service-receiver>,
        <https://data.norge.no/vocabulary/role-type#data-consumer>,
        <https://data.norge.no/vocabulary/role-type#data-provider>;
-   dct:modified "2022-02-15"^^xsd:date;
+   dct:modified "2022-02-17"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
@@ -48,13 +48,13 @@
    dct:identifier "https://data.norge.no/vocabulary/role-type#service-provider"^^xsd:anyURI;
    .
  
-<https://data.norge.no/vocabulary/role-type#end-user>
+<https://data.norge.no/vocabulary/role-type#service-receiver>
    rdf:type skos:Concept,
        foaf:Agent;
-   skos:prefLabel """end user"""@en,
-       """sluttbruker"""@nb;
+   skos:prefLabel """service receiver"""@en,
+       """tjenestemottaker"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/role-type>;
-   dct:identifier "https://data.norge.no/vocabulary/role-type#end-user"^^xsd:anyURI;
+   dct:identifier "https://data.norge.no/vocabulary/role-type#service-receiver"^^xsd:anyURI;
    .
  
 <https://data.norge.no/vocabulary/role-type#data-consumer>
@@ -75,4 +75,4 @@
    dct:identifier "https://data.norge.no/vocabulary/role-type#data-provider"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-15 08:37:43
+#### End of the file, 2022-02-17 11:39:22
