@@ -25,11 +25,11 @@
        <https://data.norge.no/vocabulary/information-model-type#conceptual-model>,
        <https://data.norge.no/vocabulary/information-model-type#logical-model>,
        <https://data.norge.no/vocabulary/information-model-type#physical-model>;
-   dct:modified "2022-02-15"^^xsd:date;
+   dct:modified "2022-02-22"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-11"^^xsd:date;
-   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED>;
    .
  
 <https://data.norge.no/vocabulary/information-model-type#application-model>
@@ -77,4 +77,4 @@
    dct:identifier "https://data.norge.no/vocabulary/information-model-type#physical-model"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-02-15 08:26:55
+#### End of the file, 2022-02-22 08:47:06
