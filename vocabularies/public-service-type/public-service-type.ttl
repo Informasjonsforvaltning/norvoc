@@ -16,11 +16,12 @@
    dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Controlled vocabulary with predefined public service types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."""@en,
        """Kontrollert vokabular med predefinerte offentlig tjeneste typer, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."""@nb;
-   dct:modified "2022-02-15"^^xsd:date;
+   xkos:covers <https://data.norge.no/concepts/73f78f28-cab8-4dae-9029-6e5af9f98dc0>;
+   dct:modified "2022-02-22"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-31"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
    .
  
-#### End of the file, 2022-02-15 08:35:43
+#### End of the file, 2022-02-22 10:06:20
