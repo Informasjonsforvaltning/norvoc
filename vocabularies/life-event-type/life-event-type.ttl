@@ -33,7 +33,7 @@
        <https://data.norge.no/vocabulary/life-event-type#facing-a-crime>,
        <https://data.norge.no/vocabulary/life-event-type#retirement>,
        <https://data.norge.no/vocabulary/life-event-type#death-of-a-relative>;
-   dct:modified "2022-02-15"^^xsd:date;
+   dct:modified "2022-02-22"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-01"^^xsd:date;
@@ -186,4 +186,4 @@
    skos:example """For instance notifying the authorities, arranging the funeral, etc."""@en;
    .
  
-#### End of the file, 2022-02-15 08:33:22
+#### End of the file, 2022-02-22 09:58:17
