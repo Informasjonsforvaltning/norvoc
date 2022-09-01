@@ -1,0 +1,54 @@
+name: upload files to server
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - vocabularies/relationship-with-source-type/**
+
+jobs:
+  test_uploading_of_file:
+    name: Upload vocabulary to static-rdf-server
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Upload rdf to static-rdf-server
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2.1
+        id: upload-rdf
+        with:
+          ontology-type: "vocabulary"
+          ontology: "relationship-with-source-type"
+          file: "vocabularies/relationship-with-source-type/relationship-with-source-type.ttl"
+          file-type: "text/turtle"
+          file-language: "en"
+          host: "https://data.norge.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
+
+      - name: Upload html nb to static-rdf-server
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2.1
+        id: upload-html-nb
+        with:
+          ontology-type: "vocabulary"
+          ontology: "relationship-with-source-type"
+          file: "vocabularies/relationship-with-source-type/relationship-with-source-type.html"
+          file-type: "text/html"
+          file-language: "nb"
+          host: "https://data.norge.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
+
+      - name: Upload html en to static-rdf-server
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v2.1
+        id: upload-html-en
+        with:
+          ontology-type: "vocabulary"
+          ontology: "translation-type"
+          file: "vocabularies/relationship-with-source-type/relationship-with-source-type-en.html"
+          file-type: "text/html"
+          file-language: "en"
+          host: "https://data.norge.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
