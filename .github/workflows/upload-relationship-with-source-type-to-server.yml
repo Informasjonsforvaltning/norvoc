@@ -35,7 +35,7 @@ jobs:
         with:
           ontology-type: "vocabulary"
           ontology: "relationship-with-source-type"
-          file: "vocabularies/relationship-with-source-type/relationship-with-source-type.html"
+          file: "vocabularies/relationship-with-source-type/relationship-with-source-type-nb.html"
           file-type: "text/html"
           file-language: "nb"
           host: "https://data.norge.no"
