@@ -12,7 +12,7 @@
 <https://data.norge.no/vocabulary/relationship-with-source-type>
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
-   dct:title """Relationship with source type"""@en,
+   dct:title """Types of relationship with source"""@en,
        """Typer forhold til kilde"""@nb;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Controlled vocabulary with predefined types of relationship with source that a defintion may have, primarily meant to be used in connection with descriptions of concepts in accordance with SKOS-AP-NO-Begrep and TBX-AP-NO."""@en,
@@ -21,7 +21,7 @@
    uneskos:contains <https://data.norge.no/vocabulary/relationship-with-source-type#self-composed>,
        <https://data.norge.no/vocabulary/relationship-with-source-type#derived-from-source>,
        <https://data.norge.no/vocabulary/relationship-with-source-type#direct-from-source>;
-   dct:modified "2022-09-01"^^xsd:date;
+   dct:modified "2022-09-02"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-09-01"^^xsd:date;
@@ -33,9 +33,8 @@
    skos:prefLabel """self-composed"""@en,
        """egendefinert"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/relationship-with-source-type>;
-   skos:topConceptOf <https://data.norge.no/vocabulary/relationship-with-source-type>;
-   xkos:coreContentNote """definisjonen er ikke hentet fra eller basert på noen eksterne kilder"""@nb,
-       """the definition is not direct or derived from any external sources"""@en;
+   xkos:coreContentNote """forhold der definisjonen ikke er hentet fra, eller basert på, noen eksterne kilder"""@nb,
+       """relationship where the definition is not direct from, or derived from, any external sources"""@en;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
    .
  
@@ -44,8 +43,8 @@
    skos:prefLabel """derived from source"""@en,
        """basert på kilde"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/relationship-with-source-type>;
-   xkos:coreContentNote """definisjonen er ikke som direkte sitat fra men er basert på en eller flere gitte kilder"""@nb,
-       """the definition is not direct  but derived from one or more given soures"""@en;
+   xkos:coreContentNote """forhold der definisjonen ikke er direkte sitat fra, men er basert på, en eller flere gitte kilder"""@nb,
+       """relationship where the definition is not direct from, but derived from, one or more given sources"""@en;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
    .
  
@@ -54,9 +53,9 @@
    skos:prefLabel """direct from source"""@en,
        """sitat fra kilde"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/relationship-with-source-type>;
-   xkos:coreContentNote """definisjonen er ordrett sitat fra en gitt kilde"""@nb,
-       """the definition is direct  from a given source"""@en;
+   xkos:coreContentNote """forhold der definisjonen er ordrett sitat fra en gitt kilde"""@nb,
+       """relationship where the definition is direct from a given source"""@en;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
    .
  
-#### End of the file, 2022-09-01 14:53:14
+#### End of the file, 2022-09-02 09:49:55
