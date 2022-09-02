@@ -21,7 +21,7 @@
    schema:validFrom "2922-09-01"^^xsd:date;
    uneskos:contains <https://data.norge.no/vocabulary/audience-type#public>,
        <https://data.norge.no/vocabulary/audience-type#specialist>;
-   dct:modified "2022-09-01"^^xsd:date;
+   dct:modified "2022-09-02"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-09-01"^^xsd:date;
@@ -34,8 +34,8 @@
        """allmennheten"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/audience-type>;
    skos:topConceptOf <https://data.norge.no/vocabulary/audience-type>;
-   xkos:coreContentNote """målgruppe som det ikke forutsettes noe forkunnskap av i det aktuelle fagområdet for begrepet"""@nb,
-       """audience of whom there is no prior knowledge required in the subject field of the concept"""@en;
+   xkos:coreContentNote """målgruppe som det ikke forutsettes noe forkunnskap av, i det/de aktuelle fagområdet/fagområdene for begrepet"""@nb,
+       """audience of whom there is no prior knowledge required in the subject field(s) of the concept"""@en;
    dct:identifier "https://data.norge.no/vocabulary/audience-type#public"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
    .
@@ -45,10 +45,10 @@
    skos:prefLabel """specialist"""@en,
        """spesialist"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/audience-type>;
-   xkos:coreContentNote """målgruppe som det forutsettes et visst kunnskapsnivå i det aktuelle fagområdet for begrepet"""@nb,
-       """audience of whom there is certain level of knowledge required in the subject field of the concept"""@en;
+   xkos:coreContentNote """målgruppe som det forutsettes et visst kunnskapsnivå i det/de aktuelle fagområdet/fagområdene for begrepet"""@nb,
+       """audience of whom there is certain level of knowledge required in the subject field(s) of the concept"""@en;
    dct:identifier "https://data.norge.no/vocabulary/audience-type#specialist"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
    .
  
-#### End of the file, 2022-09-01 14:12:45
+#### End of the file, 2022-09-02 09:17:27
