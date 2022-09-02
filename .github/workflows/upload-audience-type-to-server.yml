@@ -46,7 +46,7 @@ jobs:
         id: upload-html-en
         with:
           ontology-type: "vocabulary"
-          ontology: "translation-type"
+          ontology: "audience-type"
           file: "vocabularies/audience-type/audience-type-en.html"
           file-type: "text/html"
           file-language: "en"
