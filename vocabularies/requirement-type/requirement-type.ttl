@@ -25,7 +25,7 @@
        <https://data.norge.no/vocabulary/requirement-type#position>,
        <https://data.norge.no/vocabulary/requirement-type#education>,
        <https://data.norge.no/vocabulary/requirement-type#economy>;
-   dct:modified "2022-02-15"^^xsd:date;
+   dct:modified "2022-10-18"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-10-18"^^xsd:date;
@@ -96,4 +96,4 @@
    dct:identifier "https://data.norge.no/vocabulary/requirement-type#economy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-10-18 14:16:31
+#### End of the file, 2022-10-18 14:32:14
