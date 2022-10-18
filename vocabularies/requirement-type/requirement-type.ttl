@@ -17,6 +17,7 @@
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Controlled vocabulary with predefined requirement types, primarily meant to be used in connection with describing services and events, in accordance with CPSV-AP-NO."""@en,
        """Kontrollert vokabular med predefinerte kravtyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser, i henhold til CPSV-AP-NO."""@nb;
+   xkos:supersedes <https://data.norge.no/vocabulary/criterion-requirement-type>;
    uneskos:contains <https://data.norge.no/vocabulary/requirement-type#age>,
        <https://data.norge.no/vocabulary/requirement-type#attestation>,
        <https://data.norge.no/vocabulary/requirement-type#health>,
@@ -96,4 +97,4 @@
    dct:identifier "https://data.norge.no/vocabulary/requirement-type#economy"^^xsd:anyURI;
    .
  
-#### End of the file, 2022-10-18 14:32:14
+#### End of the file, 2022-10-18 14:49:24
