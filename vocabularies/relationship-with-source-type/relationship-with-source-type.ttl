@@ -40,6 +40,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/relationship-with-source-type>;
    xkos:coreContentNote """Inkluderer: forhold der definisjonen ikke er hentet fra, eller basert på, noen eksterne kilder"""@nb,
        """Includes: relationship where the definition is not direct from, or derived from, any external sources"""@en;
+   dct:identifier "https://data.norge.no/vocabulary/relationship-with-source-type#self-composed"^^xsd:anyURI;
    skos:definition """forhold der definisjonen ikke er hentet fra, eller basert på, noen eksterne kilder"""@nb,
        """relationship where the definition is not direct from, or derived from, any external sources"""@en;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
@@ -55,6 +56,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/relationship-with-source-type>;
    xkos:coreContentNote """Inkluderer: forhold der definisjonen ikke er direkte sitat fra, men er basert på, en eller flere gitte kilder"""@nb,
        """Includes: relationship where the definition is not direct from, but derived from, one or more given sources"""@en;
+   dct:identifier "https://data.norge.no/vocabulary/relationship-with-source-type#derived-from-source"^^xsd:anyURI;
    skos:definition """forhold der definisjonen ikke er direkte sitat fra, men er basert på, en eller flere gitte kilder"""@nb,
        """relationship where the definition is not direct from, but derived from, one or more given sources"""@en;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
@@ -70,6 +72,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/relationship-with-source-type>;
    xkos:coreContentNote """Inkluderer: forhold der definisjonen er ordrett sitat fra en gitt kilde"""@nb,
        """Includes: relationship where the definition is direct from a given source"""@en;
+   dct:identifier "https://data.norge.no/vocabulary/relationship-with-source-type#direct-from-source"^^xsd:anyURI;
    skos:definition """forhold der definisjonen er ordrett sitat fra en gitt kilde"""@nb,
        """relationship where the definition is direct from a given source"""@en;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
@@ -84,4 +87,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-01-19 12:36:31
+#### End of the file, 2023-01-19 13:50:12
