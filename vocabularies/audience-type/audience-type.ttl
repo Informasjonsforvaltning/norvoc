@@ -21,10 +21,10 @@
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Kontrollert vokabular med predefinerte målgruppetyper, primært ment for å brukes i forbindelse med begrepsbeskrivelser  i henhold til SKOS-AP-NO-Begrep og TBX-AP-NO."""@nb,
        """Controlled vocabulary with predefined audience types, primarily meant to be used in connection with descriptions of concepts in accordance with SKOS-AP-NO-Begrep and TBX-AP-NO."""@en;
-   schema:validFrom "2922-09-01"^^xsd:date;
+   schema:validFrom "2022-09-01"^^xsd:date;
    uneskos:contains <https://data.norge.no/vocabulary/audience-type#public>,
        <https://data.norge.no/vocabulary/audience-type#specialist>;
-   dct:modified "2023-01-19"^^xsd:date;
+   dct:modified "2023-01-25"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/NOB>,
        <http://publications.europa.eu/resource/authority/language/ENG>;
    dct:issued "2022-09-01"^^xsd:date;
@@ -71,4 +71,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-01-19 11:35:57
+#### End of the file, 2023-01-25 07:48:59
