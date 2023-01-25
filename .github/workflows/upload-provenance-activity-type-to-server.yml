@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - vocabularies/evidence-type/**
+      - vocabularies/provenance-activity-type/**
 
 jobs:
   test_uploading_of_file:
@@ -22,8 +22,8 @@ jobs:
         id: upload-rdf
         with:
           ontology-type: "vocabulary"
-          ontology: "evidence-type"
-          file: "vocabularies/evidence-type/evidence-type.ttl"
+          ontology: "translation-type"
+          file: "vocabularies/provenance-activity-type/provenance-activity-type.ttl"
           file-type: "text/turtle"
           file-language: "en"
           host: "https://data.norge.no"
@@ -34,8 +34,8 @@ jobs:
         id: upload-html-nb
         with:
           ontology-type: "vocabulary"
-          ontology: "evidence-type"
-          file: "vocabularies/evidence-type/evidence-type-nb.html"
+          ontology: "provenance-activity-type"
+          file: "vocabularies/provenance-activity-type/provenance-activity-type-nb.html"
           file-type: "text/html"
           file-language: "nb"
           host: "https://data.norge.no"
@@ -46,8 +46,8 @@ jobs:
         id: upload-html-en
         with:
           ontology-type: "vocabulary"
-          ontology: "evidence-type"
-          file: "vocabularies/evidence-type/evidence-type-en.html"
+          ontology: "provenance-activity-type"
+          file: "vocabularies/provenance-activity-type/provenance-activity-type-en.html"
           file-type: "text/html"
           file-language: "en"
           host: "https://data.norge.no"
