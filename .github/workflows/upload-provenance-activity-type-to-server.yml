@@ -23,9 +23,8 @@ jobs:
         with:
           ontology-type: "vocabulary"
           ontology: "translation-type"
-          file: "vocabularies/provenance-activity-type/provenance-activity-type.ttl"
-          file-type: "text/turtle"
-          file-language: "en"
+          files: |
+            vocabularies/provenance-activity-type/provenance-activity-type.ttl text/turtle en
           host: "https://data.norge.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
 
@@ -35,9 +34,8 @@ jobs:
         with:
           ontology-type: "vocabulary"
           ontology: "provenance-activity-type"
-          file: "vocabularies/provenance-activity-type/provenance-activity-type-nb.html"
-          file-type: "text/html"
-          file-language: "nb"
+          files: |
+            vocabularies/provenance-activity-type/provenance-activity-type-nb.html text/html nb
           host: "https://data.norge.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
 
@@ -47,8 +45,7 @@ jobs:
         with:
           ontology-type: "vocabulary"
           ontology: "provenance-activity-type"
-          file: "vocabularies/provenance-activity-type/provenance-activity-type-en.html"
-          file-type: "text/html"
-          file-language: "en"
+          files: |
+            vocabularies/provenance-activity-type/provenance-activity-type-en.html text/html en
           host: "https://data.norge.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
