@@ -82,9 +82,9 @@
  
 <https://data.norge.no/vocabulary/relationship-with-source-type#Digdir>
    rdf:type vcard:Organization;
-   vcard:hasOrganizationName """Digitaliseringsdirektoratet"""@nb,
-       """Norwegian Digitalisation Agency"""@en;
+   vcard:hasOrganizationName """Digitaliseringsdirektoratet (Digdir)"""@nb,
+       """Norwegian Digitalisation Agency (Digdir)"""@en;
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-01-19 13:50:12
+#### End of the file, 2023-01-25 11:05:57
