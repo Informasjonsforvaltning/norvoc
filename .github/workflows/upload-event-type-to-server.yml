@@ -17,38 +17,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Upload rdf to static-rdf-server
+      - name: Upload files to static-rdf-server
         uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
-        id: upload-rdf
+        id: upload-files
         with:
-          ontology-type: "vocabulary"
-          ontology: "event-type"
-          file: "vocabularies/event-type/event-type.ttl"
-          file-type: "text/turtle"
-          file-language: "en"
           host: "https://data.norge.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
-
-      - name: Upload html nb to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
-        id: upload-html-nb
-        with:
           ontology-type: "vocabulary"
           ontology: "event-type"
-          file: "vocabularies/event-type/event-type-nb.html"
-          file-type: "text/html"
-          file-language: "nb"
-          host: "https://data.norge.no"
-          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
-
-      - name: Upload html en to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
-        id: upload-html-en
-        with:
-          ontology-type: "vocabulary"
-          ontology: "event-type"
-          file: "vocabularies/event-type/event-type-en.html"
-          file-type: "text/html"
-          file-language: "en"
-          host: "https://data.norge.no"
-          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
+          files: |
+            vocabularies/event-type/event-type.ttl text/turtle en
+            vocabularies/event-type/event-type-nb.html text/html nb
+            vocabularies/event-type/event-type-en.html text/html en
+            
