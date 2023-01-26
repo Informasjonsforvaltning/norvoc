@@ -16,8 +16,8 @@
    rdf:type skos:ConceptScheme;
    xkos:numberOfLevels "1"^^xsd:positiveInteger;
    dct:identifier "https://data.norge.no/vocabulary/provenance-activity-type"^^xsd:anyURI;
-   dct:title """Proveniens aktivitetstype"""@nb,
-       """Proveniens aktivitetstype"""@nn,
+   dct:title """Proveniensaktivitetstype"""@nb,
+       """Proveniensaktivitetstype"""@nn,
        """Provenance activity type"""@en;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    dct:description """Kontrollert vokabular med predefinerte proveniens aktivitetstyper, primært ment for å brukes i forbindelse med beskrivelse av proveniens til datasett."""@nb,
@@ -26,7 +26,7 @@
    uneskos:contains <https://data.norge.no/vocabulary/provenance-activity-type#administrative-decision>,
        <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party>,
        <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-user>;
-   dct:modified "2023-01-25"^^xsd:date;
+   dct:modified "2023-01-26"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/NOB>,
        <http://publications.europa.eu/resource/authority/language/ENG>;
    dct:issued "2023-01-25"^^xsd:date;
@@ -86,4 +86,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-01-25 12:16:50
+#### End of the file, 2023-01-26 06:45:26
