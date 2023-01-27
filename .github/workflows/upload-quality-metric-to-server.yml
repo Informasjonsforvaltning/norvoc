@@ -1,0 +1,32 @@
+name: upload files to server
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - vocabularies/quality-metric/**
+
+jobs:
+  test_uploading_of_file:
+    name: Upload vocabulary to static-rdf-server
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Upload files to static-rdf-server
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
+        id: upload-files
+        with:
+          host: "https://data.norge.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
+          ontology-type: "vocabulary"
+          ontology: "quality-metric"
+          files: |
+            vocabularies/quality-metric/quality-metric.ttl text/turtle en
+            vocabularies/quality-metric/quality-metric-nb.html text/html nb
+            vocabularies/quality-metric/quality-metric-en.html text/html en
+            
