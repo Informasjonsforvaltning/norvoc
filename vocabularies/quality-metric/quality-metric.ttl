@@ -4,6 +4,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> . 
 @prefix dct: <http://purl.org/dc/terms/> . 
 @prefix dqv: <http://www.w3.org/ns/dqv#> . 
+@prefix dqvno: <https://data.norge.no/vocabulary/dqvno#> . 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
 @prefix schema: <http://schema.org/> . 
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
@@ -40,7 +41,7 @@
        <https://data.norge.no/vocabulary/quality-metric#qm-accuracy-1002>,
        <https://data.norge.no/vocabulary/quality-metric#qm-accuracy-2001>,
        <https://data.norge.no/vocabulary/quality-metric#qm-accuracy-2002>;
-   dct:modified "2023-01-30"^^xsd:date;
+   dct:modified "2023-02-14"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/NOB>,
        <http://publications.europa.eu/resource/authority/language/ENG>;
    dct:issued "2023-01-30"^^xsd:date;
@@ -54,7 +55,7 @@
        """missing objects"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-1001"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
    skos:definition """hvorvidt det mangler enheter i datasettet"""@nb,
        """whether objects are missing in the dataset"""@en;
    dct:source """basert på ISO 19157"""@nb,
@@ -75,7 +76,7 @@
        """number of missing objects"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-1002"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
    skos:definition """antall enheter som ikke er i datasettet men som forventes å være med"""@nb,
        """number of objects that are not present in the dataset but are expected to be"""@en;
    dct:source """basert på ISO 19157"""@nb,
@@ -96,7 +97,7 @@
        """rate of missing objects"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-1003"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
    skos:definition """antall enheter som mangler i forhold til antall enheter som skulle være med i datasettet"""@nb,
        """number of missing objects in relation to the number of objects that should be present in the dataset"""@en;
    dct:source """basert på ISO 19157"""@nb,
@@ -117,7 +118,7 @@
        """number of objects with missing value for a given property"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-1004"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
    skos:definition """antall enheter i datasettet som mangler verdi for en gitt egenskap"""@nb,
        """number of objects in the data set with missing value for a given property"""@en;
    dqv:expectedDataType xsd:nonNegativeInteger;
@@ -136,7 +137,7 @@
        """rate of objects with missing value for a given property"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-1005"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#under-coverage>;
    skos:definition """antall enheter med manglende verdi for en gitt egenskap i forhold til antall enheter i datasettet"""@nb,
        """number of objects with missing value for a given property in relation to the number of objects in the dataset"""@en;
    dqv:expectedDataType xsd:double;
@@ -155,7 +156,7 @@
        """excess objects"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-2001"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#over-coverage>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#over-coverage>;
    skos:definition """hvorvidt det finnes overflødige enheter i datasettet"""@nb,
        """whether there are objects incorrectly present in the dataset"""@en;
    dct:source """basert på ISO 19157"""@nb,
@@ -176,7 +177,7 @@
        """number of excess objects"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-2002"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#over-coverage>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#over-coverage>;
    skos:definition """antall enheter som er i datasettet, men som ikke forventes å være med"""@nb,
        """number of objects within the data set or sample that should not have been present"""@en;
    dct:source """basert på ISO 19157"""@nb,
@@ -197,7 +198,7 @@
        """rate of excess objects"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-2003"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#over-coverage>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#over-coverage>;
    skos:definition """antall overflødige enheter i forhold til antall enheter som skulle være med i datasettet"""@nb,
        """number of excess objects in the data set in relation to the number of objects that should have been present"""@en;
    dct:source """basert på ISO 19157"""@nb,
@@ -218,7 +219,7 @@
        """number of objects with imputed value for a given property"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-3001"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#imputation>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#imputation>;
    skos:definition """antall enheter i datasettet med imputert verdi for en gitt egenskap"""@nb,
        """number of objects in the data set with imputed value for a given property"""@en;
    dqv:expectedDataType xsd:nonNegativeInteger;
@@ -237,7 +238,7 @@
        """rate of objects with imputed value for a given property"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-completeness-3002"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#imputation>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#imputation>;
    skos:definition """antall enheter med imputert verdi for en gitt egenskap i forhold til antall enheter i datasettet"""@nb,
        """number of objects with imputed value for a given property in relation to the number of objects in the dataset"""@en;
    dqv:expectedDataType xsd:double;
@@ -256,7 +257,7 @@
        """overall time difference"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-currentness-1001"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#delay>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#delay>;
    skos:definition """tid mellom når datasettet kan tas i bruk og den hendelsen eller fenomenet datasettet beskriver inntreffer"""@nb,
        """length of time between data availability and the event or phenomenon they describe"""@en;
    dct:source """Eurostats begrepsdatabase RAMON, European Union, Regulation (EC) No 223/2009"""@nb,
@@ -276,7 +277,7 @@
        """rate of objects with inconsistent properties"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-consistency-1001"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#consistency-within-dataset>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#consistency-within-dataset>;
    skos:definition """antall enheter med inkonsistente egenskaper i forhold til antall enheter i datasettet"""@nb,
        """number of objects with inconsistent properties in relation to the number of objects in the data set"""@en;
    dqv:expectedDataType xsd:double;
@@ -295,7 +296,7 @@
        """rate of objects with inconsistency between given properties"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-consistency-1002"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#consistency-within-dataset>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#consistency-within-dataset>;
    skos:definition """antall enheter med inkonsistens mellom gitte egenskaper i forhold til antall enheter i datasettet"""@nb,
        """number of objects with inconsistency between given properties in relation to the number of objects in the data set"""@en;
    dqv:expectedDataType xsd:double;
@@ -316,7 +317,7 @@
        """number of objects with incorrect identifiers"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-accuracy-1001"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#identifier-correctness>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#identifier-correctness>;
    skos:definition """antall enheter i datasettet med feil identifikatorer"""@nb,
        """number of objects in the data set with incorrect identifiers"""@en;
    dqv:expectedDataType xsd:nonNegativeInteger;
@@ -335,7 +336,7 @@
        """rate of objects with incorrect identifiers"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-accuracy-1002"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#identifier-correctness>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#identifier-correctness>;
    skos:definition """antall enheter med feil identifikatorer i forhold til antall enheter i datasettet"""@nb,
        """number of objects with incorrect identifiers in relation to the number of objects in the data set"""@en;
    dqv:expectedDataType xsd:double;
@@ -354,7 +355,7 @@
        """number of incorrectly classified objects for a given property"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-accuracy-2001"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#classification-correctness>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#classification-correctness>;
    skos:definition """antall enheter i datasettet med feil klassifisering for en gitt egenskap"""@nb,
        """number of objects in the dataset that are incorrectly classified for a given property"""@en;
    dct:source """basert på ISO 19157"""@nb,
@@ -375,7 +376,7 @@
        """rate of incorrectly classified objects for a given property"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/quality-metric>;
    dct:identifier "https://data.norge.no/vocabulary/quality-metric#qm-accuracy-2002"^^xsd:anyURI;
-   dqv:inDimension <https://data.norge.no/vocabulary/quality-dimension#classification-correctness>;
+   dqvno:inSubDimension <https://data.norge.no/vocabulary/quality-dimension#classification-correctness>;
    skos:definition """antall feilklassifiserte enheter for en gitt egenskap i forhold til antall enheter i datasettet"""@nb,
        """number of objects that are incorrectly classified for a given property in relation to the number of objects in the dataset"""@en;
    dct:source """basert på ISO 19157"""@nb,
@@ -397,4 +398,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-01-30 10:36:07
+#### End of the file, 2023-02-14 07:33:58
