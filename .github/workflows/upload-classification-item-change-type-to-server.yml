@@ -27,4 +27,5 @@ jobs:
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
           files: |
             vocabularies/classification-item-change-type/classification-item-change-type.ttl text/turtle en
-            vocabularies/classification-item-change-type/classification-item-change-type-nb.html text/html nb          vocabularies/classification-item-change-type/classification-item-change-type-en.html text/html en
+            vocabularies/classification-item-change-type/classification-item-change-type-nb.html text/html nb          
+            vocabularies/classification-item-change-type/classification-item-change-type-en.html text/html en
