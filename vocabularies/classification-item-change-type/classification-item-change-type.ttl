@@ -43,7 +43,7 @@
    skos:topConceptOf <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#deletion"^^xsd:anyURI;
    skos:notation """1""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -54,7 +54,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#creation"^^xsd:anyURI;
    skos:notation """2""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -65,7 +65,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#merging"^^xsd:anyURI;
    skos:notation """3""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -76,7 +76,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#take-over"^^xsd:anyURI;
    skos:notation """4""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -87,7 +87,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#breakdown"^^xsd:anyURI;
    skos:notation """5""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -98,7 +98,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#split-off"^^xsd:anyURI;
    skos:notation """6""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -109,7 +109,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#transfer"^^xsd:anyURI;
    skos:notation """7""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -120,7 +120,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#code-change"^^xsd:anyURI;
    skos:notation """8""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -131,15 +131,15 @@
    skos:inScheme <https://data.norge.no/vocabulary/classification-item-change-type>;
    dct:identifier "https://data.norge.no/vocabulary/classification-item-change-type#name-change"^^xsd:anyURI;
    skos:notation """9""";
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/classification-item-change-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
-<https://data.norge.no/vocabulary/audience-type#Digdir>
+<https://data.norge.no/vocabulary/classification-item-change-type#Digdir>
    rdf:type vcard:Organization;
    vcard:hasOrganizationName """Digitaliseringsdirektoratet (Digdir)"""@nb,
        """Norwegian Digitalisation Agency (Digdir)"""@en;
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-02-22 09:53:43
+#### End of the file, 2023-02-22 10:15:18
