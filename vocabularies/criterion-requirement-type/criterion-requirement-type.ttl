@@ -43,7 +43,7 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#age"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED>;
    dct:isReplacedBy <https://data.norge.no/vocabulary/requirement-type#age>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -55,7 +55,7 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#attestation"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED>;
    dct:isReplacedBy <https://data.norge.no/vocabulary/requirement-type#attestation>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -67,7 +67,7 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#health"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED>;
    dct:isReplacedBy <https://data.norge.no/vocabulary/requirement-type#health>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -79,7 +79,7 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#competance"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED>;
    dct:isReplacedBy <https://data.norge.no/vocabulary/requirement-type#competance>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -91,7 +91,7 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#certification"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED>;
    dct:isReplacedBy <https://data.norge.no/vocabulary/requirement-type#certification>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -103,7 +103,7 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#position"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED>;
    dct:isReplacedBy <https://data.norge.no/vocabulary/requirement-type#position>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -115,7 +115,7 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#education"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED>;
    dct:isReplacedBy <https://data.norge.no/vocabulary/requirement-type#education>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
@@ -127,15 +127,15 @@
    dct:identifier "https://data.norge.no/vocabulary/criterion-requirement-type#economy"^^xsd:anyURI;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEPRECATED>;
    dct:isReplacedBy <https://data.norge.no/vocabulary/requirement-type#economy>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
  
-<https://data.norge.no/vocabulary/audience-type#Digdir>
+<https://data.norge.no/vocabulary/criterion-requirement-type#Digdir>
    rdf:type vcard:Organization;
    vcard:hasOrganizationName """Digitaliseringsdirektoratet (Digdir)"""@nb,
        """Norwegian Digitalisation Agency (Digdir)"""@en;
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-03-03 13:49:59
+#### End of the file, 2023-03-03 13:54:25
