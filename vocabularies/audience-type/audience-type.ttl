@@ -24,7 +24,7 @@
    schema:validFrom "2022-09-01"^^xsd:date;
    uneskos:contains <https://data.norge.no/vocabulary/audience-type#public>,
        <https://data.norge.no/vocabulary/audience-type#specialist>;
-   dct:modified "2023-01-25"^^xsd:date;
+   dct:modified "2023-03-16"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/NOB>,
        <http://publications.europa.eu/resource/authority/language/ENG>;
    dct:issued "2022-09-01"^^xsd:date;
@@ -52,7 +52,7 @@
    rdf:type skos:Concept;
    skos:prefLabel """spesialist"""@nb,
        """spesialist"""@nn,
-       """spesialist"""@en;
+       """specialist"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/audience-type>;
    xkos:coreContentNote """Inkluderer: målgruppe som det forutsettes et visst kunnskapsnivå i det/de aktuelle fagområdet/fagområdene for begrepet"""@nb,
        """Includes: audience of whom there is certain level of knowledge required in the subject field(s) of the concept"""@en;
@@ -71,4 +71,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-01-25 10:56:48
+#### End of the file, 2023-03-16 10:47:44
