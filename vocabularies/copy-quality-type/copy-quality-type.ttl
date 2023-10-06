@@ -33,7 +33,7 @@
        """attestert kopi"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/copy-quality-type>;
    dct:identifier "https://data.norge.no/vocabulary/copy-quality-type#certified-copy"^^xsd:anyURI;
-   adms:status <http://publications.europa.eu/resource/authority/concept-status/RETIRED>;
+   adms:status <http://publications.europa.eu/resource/authority/concept-status/DEPRECATED>;
    dcat:contactPoint <https://data.norge.no/vocabulary/copy-quality-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
@@ -45,4 +45,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-10-06 12:30:36
+#### End of the file, 2023-10-06 12:34:37
