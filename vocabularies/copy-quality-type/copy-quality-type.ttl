@@ -20,11 +20,11 @@
    dct:description """Controlled vocabulary with predefined copy quality types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO."""@en,
        """Kontrollert vokabular med predefinerte kopityper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO."""@nb;
    uneskos:contains <https://data.norge.no/vocabulary/copy-quality-type#certified-copy>;
-   dct:modified "2023-03-03"^^xsd:date;
+   dct:modified "2023-10-06"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-02-01"^^xsd:date;
-   adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
+   adms:status <http://publications.europa.eu/resource/authority/dataset-status/WITHDRAWN>;
    .
  
 <https://data.norge.no/vocabulary/copy-quality-type#certified-copy>
@@ -33,6 +33,7 @@
        """attestert kopi"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/copy-quality-type>;
    dct:identifier "https://data.norge.no/vocabulary/copy-quality-type#certified-copy"^^xsd:anyURI;
+   adms:status <http://publications.europa.eu/resource/authority/concept-status/RETIRED>;
    dcat:contactPoint <https://data.norge.no/vocabulary/copy-quality-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
    .
@@ -44,4 +45,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2023-03-03 13:42:32
+#### End of the file, 2023-10-06 12:30:36
