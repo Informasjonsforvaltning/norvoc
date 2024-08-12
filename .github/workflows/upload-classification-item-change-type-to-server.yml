@@ -18,12 +18,12 @@ jobs:
         id: adocbuild-nb
         uses: avattathil/asciidoctor-action@master
         with:
-          program: "asciidoctor -a data-uri -R vocabularies/classification-item-change-type -o classification-item-change-type-nb.html -a lang=nb main-nb.adoc"
+          program: "asciidoctor -a data-uri -o vocabularies/classification-item-change-type/classification-item-change-type-nb.html -a lang=nb vocabularies/classification-item-change-type/main-nb.adoc"
       - name: Build html english
         id: adocbuild-en
         uses: avattathil/asciidoctor-action@master
         with:
-          program: "asciidoctor -a data-uri -R vocabularies/classification-item-change-type -o classification-item-change-type-en.html -a lang=en main-en.adoc"
+          program: "asciidoctor -a data-uri -o vocabularies/classification-item-change-type/classification-item-change-type-en.html -a lang=en vocabularies/classification-item-change-type/main-en.adoc"
 
       - name: Upload files to static-rdf-server
         uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
