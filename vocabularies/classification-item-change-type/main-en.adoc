@@ -14,7 +14,7 @@ image::../adoc-shared-files/images/Digdir.png[width=30%, pdfwidth=30vw, link=htt
 
 // include::../adoc-shared-files/shared/download.adoc[]
 
-NOTE: *Feedback:* +
+NOTE: *Feedback:* + 
 Please use https://github.com/Informasjonsforvaltning/norvoc/issues[Github Issues] to give us your feedback, if any.
 
 toc::[]
