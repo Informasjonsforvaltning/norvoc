@@ -1,4 +1,4 @@
-name: upload files to server
+name: rule-type adocbuild and upload files to server
 
 on:
   push:
@@ -8,14 +8,22 @@ on:
       - vocabularies/rule-type/**
 
 jobs:
-  test_uploading_of_file:
-    name: Upload vocabulary to static-rdf-server
+  adoc_build_and_upload_files:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.draft == false
-
+    name: asciidoctor build
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Build html bokmål
+        id: adocbuild-nb
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor -a data-uri -o vocabularies/rule-type/rule-type-nb.html -a lang=nb vocabularies/rule-type/main-nb.adoc"
+      - name: Build html english
+        id: adocbuild-en
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor -a data-uri -o vocabularies/rule-type/rule-type-en.html -a lang=en vocabularies/rule-type/main-en.adoc"
 
       - name: Upload files to static-rdf-server
         uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
