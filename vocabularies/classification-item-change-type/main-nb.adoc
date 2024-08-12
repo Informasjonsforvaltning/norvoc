@@ -6,7 +6,7 @@ HTML-visning av RDF Turtle ressurs
 :toc: left
 ifdef::backend-pdf[:toc: macro]
 :toclevels: 9
-:sectanchors:
+:sectlinks:
 :table-stripes: odd
 :title-logo-image: image:../adoc-shared-files/images/Digdir.png[pdfwidth=30vw]
 
