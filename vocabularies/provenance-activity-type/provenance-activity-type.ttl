@@ -88,7 +88,7 @@
    skos:inScheme <https://data.norge.no/vocabulary/provenance-activity-type>;
    dct:identifier "https://data.norge.no/vocabulary/provenance-activity-type#ai-creation"^^xsd:anyURI;
    skos:definition """generering av relevante opplysninger ved bruk av kunstig intelligens (KI)"""@no,
-       """reating relevant information using artificial intelligence (AI)"""@en;
+       """creating relevant information using artificial intelligence (AI)"""@en;
    adms:status <http://publications.europa.eu/resource/authority/concept-status/CURRENT>;
    dcat:contactPoint <https://data.norge.no/vocabulary/provenance-activity-type#Digdir>;
    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827>;
@@ -101,4 +101,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2024-08-12 15:55:22
+#### End of the file, 2024-08-12 16:03:04
