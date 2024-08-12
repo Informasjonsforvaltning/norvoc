@@ -8,7 +8,23 @@ on:
       - vocabularies/audience-type/**
 
 jobs:
-  test_uploading_of_file:
+  adoc_build:
+    runs-on: ubuntu-latest
+    name: asciidoctor build
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Build html bokmål
+        id: adocbuild-nb
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor -D vocabularies/audience-type/ -o audience-type-nb.html -a lang=nb vocabularies/audience-type/main-nb.adoc"
+      - name: Build html english
+        id: adocbuild-en
+        uses: avattathil/asciidoctor-action@master
+        with:
+            program: "asciidoctor -D vocabularies/audience-type/ -o audience-type-en.html -a lang=en vocabularies/audience-type/main-en.adoc"
+  uploading_of_files:
     name: Upload vocabulary to static-rdf-server
     runs-on: ubuntu-latest
     if: github.event.pull_request.draft == false
