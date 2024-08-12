@@ -1,0 +1,26 @@
+include::../adoc-shared-files/locale/attributes-nb.adoc[]
+= provenance-activity-type 
+HTML-visning av RDF Turtle ressurs / Digitaliseringsdirektoratet (Digdir)
+:doctype: book
+:icons: font
+:toc: left
+ifdef::backend-pdf[:toc: macro]
+:toclevels: 9
+:sectlinks:
+:table-stripes: odd
+:title-logo-image: image:../adoc-shared-files/images/Digdir.png[pdfwidth=30vw]
+
+image::../adoc-shared-files/images/Digdir.png[width=30%, pdfwidth=30vw, link=https://digdir.no/]
+
+// *Status*: gjeldende
+
+// include::../adoc-shared-files/shared/download.adoc[]
+
+NOTE: *Innmelding av feil og mangler:* +
+Dersom du finner feil eller mangler, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/norvoc/issues[Github Issues]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
+
+toc::[]
+
+include::provenance-activity-type-nb.adoc[]
+
+include::../adoc-shared-files/shared/stats.adoc[]
