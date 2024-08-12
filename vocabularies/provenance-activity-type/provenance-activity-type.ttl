@@ -82,7 +82,7 @@
 <https://data.norge.no/vocabulary/provenance-activity-type#ai-creation>
    rdf:type skos:Concept,
        prov:Activity;
-   skos:prefLabel """KT-generering"""@nb,
+   skos:prefLabel """KI-generering"""@nb,
        """KI-generering"""@nn,
        """AI creation"""@en;
    skos:inScheme <https://data.norge.no/vocabulary/provenance-activity-type>;
@@ -101,4 +101,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2024-08-12 16:03:04
+#### End of the file, 2024-08-12 16:16:39
