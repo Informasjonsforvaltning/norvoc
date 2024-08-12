@@ -1,4 +1,4 @@
-name: upload files to server
+name: audience-type adocbuild and upload files to server
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - vocabularies/audience-type/**
 
 jobs:
-  adoc_build:
+  adoc_build_and_upload_files:
     runs-on: ubuntu-latest
     name: asciidoctor build
     steps:
