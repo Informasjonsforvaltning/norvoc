@@ -18,12 +18,12 @@ jobs:
         id: adocbuild-nb
         uses: avattathil/asciidoctor-action@master
         with:
-          program: "asciidoctor -D docs -o vocabularies/audience-type/audience-type-nb.html -a lang=nb vocabularies/audience-type/main-nb.adoc"
+          program: "asciidoctor -R vocabularies/audience-type -o audience-type-nb.html -a lang=nb main-nb.adoc"
       - name: Build html english
         id: adocbuild-en
         uses: avattathil/asciidoctor-action@master
         with:
-            program: "asciidoctor -D docs -o vocabularies/audience-type/audience-type-en.html -a lang=en vocabularies/audience-type/main-en.adoc"
+            program: "asciidoctor -R vocabularies/audience-type -o audience-type-en.html -a lang=en main-en.adoc"
   uploading_of_files:
     name: Upload vocabulary to static-rdf-server
     runs-on: ubuntu-latest
