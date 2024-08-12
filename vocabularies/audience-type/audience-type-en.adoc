@@ -71,7 +71,7 @@ http://publications.europa.eu/resource/authority/language/ENG[English]
 | publisher | dct:publisher | https://organization-catalog.fellesdatakatalog.digdir.no/organizations/991825827[991825827]
 |===
 
-=== Digdir [[Digdir]]
+== Digdir [[Digdir]]
 
 [cols="20s,20d,60d"]
 |===
@@ -99,4 +99,4 @@ http://publications.europa.eu/resource/authority/language/ENG[English]
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2023-03-16 10:47:52
+// End of the file, 2024-08-12 19:00:59
