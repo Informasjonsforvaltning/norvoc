@@ -16,11 +16,22 @@
 | beskrivelse | dct:description |  Controlled vocabulary with predefined service types, primarily meant to be used in connection with describing services and events in accordance with CPSV-AP-NO. (http://publications.europa.eu/resource/authority/language/ENG[engelsk]) + 
  Kontrollert vokabular med predefinerte tjenestetyper, primært ment for å brukes i forbindelse med å beskrive tjenester og hendelser i henhold til CPSV-AP-NO. (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 | dekker | xkos:covers | https://data.norge.no/concepts/9d406b71-273f-4631-8f3d-52d61943612b[tjeneste]
-| sist oppdatert | dct:modified |  2022-02-22
+| sist oppdatert | dct:modified |  2024-08-16
 | språk | dct:language | http://publications.europa.eu/resource/authority/language/ENG[engelsk] + 
 http://publications.europa.eu/resource/authority/language/NOB[bokmål]
 | tilgjengeliggjøringsdato | dct:issued |  2022-01-29
 | status | adms:status | http://publications.europa.eu/resource/authority/dataset-status/DEVELOP[under utvikling]
+|===
+
+== Digdir [[Digdir]]
+
+[cols="20s,20d,60d"]
+|===
+| Egenskapsnavn | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | vcard:Organization
+| organisasjonsnavn | vcard:hasOrganizationName |  Digitaliseringsdirektoratet (Digdir) (http://publications.europa.eu/resource/authority/language/NOB[bokmål]) + 
+ Norwegian Digitalisation Agency (Digdir) (http://publications.europa.eu/resource/authority/language/ENG[engelsk])
+| e-postadresse | vcard:hasEmail |  informasjonsforvaltning@digdir.no
 |===
 
 == Navnerom [[Namespace]]
@@ -32,8 +43,9 @@ http://publications.europa.eu/resource/authority/language/NOB[bokmål]
 | dct | http://purl.org/dc/terms/
 | rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns#
 | skos | http://www.w3.org/2004/02/skos/core#
+| vcard | http://www.w3.org/2006/vcard/ns#
 | xkos | http://rdf-vocabulary.ddialliance.org/xkos#
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2022-03-25 15:05:54
+// End of the file, 2024-08-16 18:37:56
