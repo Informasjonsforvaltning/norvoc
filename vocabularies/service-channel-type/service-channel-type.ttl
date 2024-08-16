@@ -35,7 +35,7 @@
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/service-channel-type#Digdir>;
    .
  
 <https://data.norge.no/vocabulary/service-channel-type#e-mail>
@@ -126,11 +126,11 @@
    dct:identifier "https://data.norge.no/vocabulary/service-channel-type#client-location"^^xsd:anyURI;
    .
  
-<https://data.norge.no/vocabulary/audience-type#Digdir>
+<https://data.norge.no/vocabulary/service-channel-type#Digdir>
    rdf:type vcard:Organization;
    vcard:hasOrganizationName """Digitaliseringsdirektoratet (Digdir)"""@nb,
        """Norwegian Digitalisation Agency (Digdir)"""@en;
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2024-08-16 18:29:50
+#### End of the file, 2024-08-16 18:59:51

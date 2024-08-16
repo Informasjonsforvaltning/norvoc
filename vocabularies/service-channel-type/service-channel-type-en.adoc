@@ -31,7 +31,7 @@ https://data.norge.no/vocabulary/service-channel-type#client-location[cient’s 
 http://publications.europa.eu/resource/authority/language/NOB[Norwegian Bokmål]
 | issued | dct:issued |  2022-01-29
 | status | adms:status | http://publications.europa.eu/resource/authority/dataset-status/DEVELOP[under development]
-| contact point | dcat:contactPoint | https://data.norge.no/vocabulary/audience-type#Digdir
+| contact point | dcat:contactPoint | https://data.norge.no/vocabulary/service-channel-type#Digdir
 |===
 
 === e-mail [[e-mail]]
@@ -215,4 +215,4 @@ http://publications.europa.eu/resource/authority/language/NOB[Norwegian Bokmål]
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2024-08-16 18:29:59
+// End of the file, 2024-08-16 19:00:00
