@@ -21,6 +21,7 @@
 http://publications.europa.eu/resource/authority/language/NOB[bokmål]
 | tilgjengeliggjøringsdato | dct:issued |  2022-01-29
 | status | adms:status | http://publications.europa.eu/resource/authority/dataset-status/DEVELOP[under utvikling]
+| kontaktpunkt | dcat:contactPoint | https://data.norge.no/vocabulary/audience-type#Digdir
 |===
 
 == Digdir [[Digdir]]
@@ -40,6 +41,7 @@ http://publications.europa.eu/resource/authority/language/NOB[bokmål]
 |===
 | Prefiks | *URI*
 | adms | http://www.w3.org/ns/adms#
+| dcat | http://www.w3.org/ns/dcat#
 | dct | http://purl.org/dc/terms/
 | rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns#
 | skos | http://www.w3.org/2004/02/skos/core#
@@ -48,4 +50,4 @@ http://publications.europa.eu/resource/authority/language/NOB[bokmål]
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2024-08-16 18:37:56
+// End of the file, 2024-08-16 18:41:55
