@@ -25,7 +25,7 @@
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
    adms:status <http://publications.europa.eu/resource/authority/dataset-status/WITHDRAWN>;
-   dcat:contactPoint <https://data.norge.no/vocabulary/audience-type#Digdir>;
+   dcat:contactPoint <https://data.norge.no/vocabulary/translation-type#Digdir>;
    .
  
 <https://data.norge.no/vocabulary/translation-type#authorised-translation>
@@ -37,11 +37,11 @@
    adms:status <http://publications.europa.eu/resource/authority/concept-status/DEPRECATED>;
    .
  
-<https://data.norge.no/vocabulary/audience-type#Digdir>
+<https://data.norge.no/vocabulary/translation-type#Digdir>
    rdf:type vcard:Organization;
    vcard:hasOrganizationName """Digitaliseringsdirektoratet (Digdir)"""@nb,
        """Norwegian Digitalisation Agency (Digdir)"""@en;
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2024-08-16 18:43:14
+#### End of the file, 2024-08-16 18:54:45

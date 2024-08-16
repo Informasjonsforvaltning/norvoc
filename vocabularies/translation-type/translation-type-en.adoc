@@ -21,7 +21,7 @@
 http://publications.europa.eu/resource/authority/language/NOB[Norwegian Bokmål]
 | issued | dct:issued |  2022-01-29
 | status | adms:status | http://publications.europa.eu/resource/authority/dataset-status/WITHDRAWN[withdrawn]
-| contact point | dcat:contactPoint | https://data.norge.no/vocabulary/audience-type#Digdir
+| contact point | dcat:contactPoint | https://data.norge.no/vocabulary/translation-type#Digdir
 |===
 
 === authorised translation [[authorised-translation]]
@@ -66,4 +66,4 @@ http://publications.europa.eu/resource/authority/language/NOB[Norwegian Bokmål]
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2024-08-16 18:43:23
+// End of the file, 2024-08-16 18:54:53
