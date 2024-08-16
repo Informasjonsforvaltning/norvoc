@@ -28,7 +28,7 @@ https://data.norge.no/vocabulary/service-output-type#financial-obligation[financ
 http://publications.europa.eu/resource/authority/language/NOB[Norwegian Bokmål]
 | issued | dct:issued |  2022-01-29
 | status | adms:status | http://publications.europa.eu/resource/authority/dataset-status/DEVELOP[under development]
-| contact point | dcat:contactPoint | https://data.norge.no/vocabulary/audience-type#Digdir
+| contact point | dcat:contactPoint | https://data.norge.no/vocabulary/service-output-type#Digdir
 |===
 
 === recognition [[recogntion]]
@@ -170,4 +170,4 @@ http://publications.europa.eu/resource/authority/language/NOB[Norwegian Bokmål]
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2024-08-16 18:34:38
+// End of the file, 2024-08-16 18:58:10
