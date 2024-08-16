@@ -25,7 +25,7 @@ https://data.norge.no/vocabulary/rule-type#case-management-rules[case mananegeme
 http://publications.europa.eu/resource/authority/language/NOB[Norwegian Bokmål]
 | issued | dct:issued |  2022-01-29
 | status | adms:status | http://publications.europa.eu/resource/authority/dataset-status/DEVELOP[under development]
-| contact point | dcat:contactPoint | https://data.norge.no/vocabulary/audience-type#Digdir
+| contact point | dcat:contactPoint | https://data.norge.no/vocabulary/rule-type#Digdir
 |===
 
 === rules regarding data processing [[rules-regarding-data-processing]]
@@ -137,4 +137,4 @@ https://data.norge.no/vocabulary/rule-type#data-processing-rule[data processing 
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2024-08-16 17:58:43
+// End of the file, 2024-08-16 19:02:05
