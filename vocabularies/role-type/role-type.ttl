@@ -25,7 +25,7 @@
        <https://data.norge.no/vocabulary/role-type#service-receiver>,
        <https://data.norge.no/vocabulary/role-type#data-consumer>,
        <https://data.norge.no/vocabulary/role-type#data-provider>;
-   dct:modified "2024-08-14"^^xsd:date;
+   dct:modified "2024-11-26"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/ENG>,
        <http://publications.europa.eu/resource/authority/language/NOB>;
    dct:issued "2022-01-29"^^xsd:date;
@@ -40,6 +40,8 @@
        """tjenesteprodusent"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/role-type>;
    dct:identifier "https://data.norge.no/vocabulary/role-type#service-producer"^^xsd:anyURI;
+   dct:title """service producer"""@en,
+       """tjenesteprodusent"""@nb;
    .
  
 <https://data.norge.no/vocabulary/role-type#service-provider>
@@ -49,6 +51,8 @@
        """tjenestetilbyder"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/role-type>;
    dct:identifier "https://data.norge.no/vocabulary/role-type#service-provider"^^xsd:anyURI;
+   dct:title """service provider"""@en,
+       """tjenestetilbyder"""@nb;
    .
  
 <https://data.norge.no/vocabulary/role-type#service-receiver>
@@ -58,6 +62,8 @@
        """tjenestemottaker"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/role-type>;
    dct:identifier "https://data.norge.no/vocabulary/role-type#service-receiver"^^xsd:anyURI;
+   dct:title """service receiver"""@en,
+       """tjenestemottaker"""@nb;
    .
  
 <https://data.norge.no/vocabulary/role-type#data-consumer>
@@ -67,6 +73,8 @@
        """datakonsument"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/role-type>;
    dct:identifier "https://data.norge.no/vocabulary/role-type#data-consumer"^^xsd:anyURI;
+   dct:title """data consumer"""@en,
+       """datakonsument"""@nb;
    .
  
 <https://data.norge.no/vocabulary/role-type#data-provider>
@@ -76,6 +84,8 @@
        """dataleverandør"""@nb;
    skos:inScheme <https://data.norge.no/vocabulary/role-type>;
    dct:identifier "https://data.norge.no/vocabulary/role-type#data-provider"^^xsd:anyURI;
+   dct:title """data provider"""@en,
+       """dataleverandør"""@nb;
    .
  
 <https://data.norge.no/vocabulary/role-type#Digdir>
@@ -85,4 +95,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2024-08-14 11:13:57
+#### End of the file, 2024-11-26 15:28:03

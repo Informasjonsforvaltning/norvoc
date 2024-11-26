@@ -20,7 +20,7 @@ https://data.norge.no/vocabulary/role-type#service-provider[tjenestetilbyder] +
 https://data.norge.no/vocabulary/role-type#service-receiver[tjenestemottaker] + 
 https://data.norge.no/vocabulary/role-type#data-consumer[datakonsument] + 
 https://data.norge.no/vocabulary/role-type#data-provider[dataleverandør]
-| sist oppdatert | dct:modified |  2024-08-14
+| sist oppdatert | dct:modified |  2024-11-26
 | språk | dct:language | http://publications.europa.eu/resource/authority/language/ENG[engelsk] + 
 http://publications.europa.eu/resource/authority/language/NOB[bokmål]
 | tilgjengeliggjøringsdato | dct:issued |  2022-01-29
@@ -41,6 +41,8 @@ Aktør (foaf:Agent)
  tjenesteprodusent (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 | er i klassifikasjon | skos:inScheme | https://data.norge.no/vocabulary/role-type[Rolletype]
 | identifikator | dct:identifier | https://data.norge.no/vocabulary/role-type#service-producer
+| navn | dct:title |  service producer (http://publications.europa.eu/resource/authority/language/ENG[engelsk]) + 
+ tjenesteprodusent (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 |===
 
 === tjenestetilbyder [[service-provider]]
@@ -56,6 +58,8 @@ Aktør (foaf:Agent)
  tjenestetilbyder (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 | er i klassifikasjon | skos:inScheme | https://data.norge.no/vocabulary/role-type[Rolletype]
 | identifikator | dct:identifier | https://data.norge.no/vocabulary/role-type#service-provider
+| navn | dct:title |  service provider (http://publications.europa.eu/resource/authority/language/ENG[engelsk]) + 
+ tjenestetilbyder (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 |===
 
 === tjenestemottaker [[service-receiver]]
@@ -71,6 +75,8 @@ Aktør (foaf:Agent)
  tjenestemottaker (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 | er i klassifikasjon | skos:inScheme | https://data.norge.no/vocabulary/role-type[Rolletype]
 | identifikator | dct:identifier | https://data.norge.no/vocabulary/role-type#service-receiver
+| navn | dct:title |  service receiver (http://publications.europa.eu/resource/authority/language/ENG[engelsk]) + 
+ tjenestemottaker (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 |===
 
 === datakonsument [[data-consumer]]
@@ -86,6 +92,8 @@ Aktør (foaf:Agent)
  datakonsument (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 | er i klassifikasjon | skos:inScheme | https://data.norge.no/vocabulary/role-type[Rolletype]
 | identifikator | dct:identifier | https://data.norge.no/vocabulary/role-type#data-consumer
+| navn | dct:title |  data consumer (http://publications.europa.eu/resource/authority/language/ENG[engelsk]) + 
+ datakonsument (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 |===
 
 === dataleverandør [[data-provider]]
@@ -101,6 +109,8 @@ Aktør (foaf:Agent)
  dataleverandør (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 | er i klassifikasjon | skos:inScheme | https://data.norge.no/vocabulary/role-type[Rolletype]
 | identifikator | dct:identifier | https://data.norge.no/vocabulary/role-type#data-provider
+| navn | dct:title |  data provider (http://publications.europa.eu/resource/authority/language/ENG[engelsk]) + 
+ dataleverandør (http://publications.europa.eu/resource/authority/language/NOB[bokmål])
 |===
 
 == Digdir [[Digdir]]
@@ -131,4 +141,4 @@ Aktør (foaf:Agent)
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2024-08-14 11:14:04
+// End of the file, 2024-11-26 15:28:11
