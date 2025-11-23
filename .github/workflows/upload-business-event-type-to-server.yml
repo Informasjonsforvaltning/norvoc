@@ -13,7 +13,7 @@ jobs:
     name: asciidoctor build and uploading of files
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Build html bokmål
         id: adocbuild-nb
         uses: avattathil/asciidoctor-action@master
