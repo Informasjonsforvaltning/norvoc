@@ -1,5 +1,8 @@
 name: level-of-certification adocbuild and upload files to server
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:

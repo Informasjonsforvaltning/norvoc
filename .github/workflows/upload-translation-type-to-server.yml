@@ -1,5 +1,8 @@
 name: translation-type adocbuild and upload files to server
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
@@ -37,4 +40,3 @@ jobs:
             vocabularies/translation-type/translation-type.ttl text/turtle en
             vocabularies/translation-type/translation-type-nb.html text/html nb
             vocabularies/translation-type/translation-type-en.html text/html en
-            

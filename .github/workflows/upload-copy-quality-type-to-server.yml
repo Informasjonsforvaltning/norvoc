@@ -1,5 +1,8 @@
 name: copy-quality adocbuild and upload files to server
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
@@ -37,4 +40,3 @@ jobs:
             vocabularies/copy-quality-type/copy-quality-type.ttl text/turtle en
             vocabularies/copy-quality-type/copy-quality-type-nb.html text/html nb
             vocabularies/copy-quality-type/copy-quality-type-en.html text/html en
-            
