@@ -16,20 +16,20 @@ jobs:
     name: asciidoctor build
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
       - name: Build html bokmål
         id: adocbuild-nb
-        uses: avattathil/asciidoctor-action@master
+        uses: Analog-inc/asciidoctor-action@master
         with:
-          program: "asciidoctor -a data-uri -o vocabularies/copy-quality-type/copy-quality-type-nb.html -a lang=nb vocabularies/copy-quality-type/main-nb.adoc"
+          shellcommand: "asciidoctor -a data-uri -o vocabularies/copy-quality-type/copy-quality-type-nb.html -a lang=nb vocabularies/copy-quality-type/main-nb.adoc"
       - name: Build html english
         id: adocbuild-en
-        uses: avattathil/asciidoctor-action@master
+        uses: Analog-inc/asciidoctor-action@master
         with:
-          program: "asciidoctor -a data-uri -o vocabularies/copy-quality-type/copy-quality-type-en.html -a lang=en vocabularies/copy-quality-type/main-en.adoc"
+          shellcommand: "asciidoctor -a data-uri -o vocabularies/copy-quality-type/copy-quality-type-en.html -a lang=en vocabularies/copy-quality-type/main-en.adoc"
 
       - name: Upload files to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@84beeeacd364f310ef6a253bc079354cdf62e5dd
         id: upload-files
         with:
           ontology-type: "vocabulary"
