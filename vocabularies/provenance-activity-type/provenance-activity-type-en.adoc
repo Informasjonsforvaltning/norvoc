@@ -19,7 +19,8 @@
 | valid from inclusive | schema:validFrom |  2023-01-25
 | contains classification items | uneskos:contains | https://data.norge.no/vocabulary/provenance-activity-type#administrative-decision[administrative decision] + 
 https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party[collecting from third party] + 
-https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-user[collecting from the user]
+https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-user[collecting from the user] + 
+https://data.norge.no/vocabulary/provenance-activity-type#ai-creation[AI creation]
 | modified | dct:modified |  2024-08-12
 | language | dct:language | http://publications.europa.eu/resource/authority/language/NOB[Norwegian Bokmål] + 
 http://publications.europa.eu/resource/authority/language/ENG[English]
@@ -141,4 +142,4 @@ Activity (prov:Activity)
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2024-08-12 16:16:51
+// End of the file, 2026-05-22 16:16:07

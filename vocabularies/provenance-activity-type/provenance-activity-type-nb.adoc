@@ -19,7 +19,8 @@
 | gyldig fra og med | schema:validFrom |  2023-01-25
 | inneholder kategorier | uneskos:contains | https://data.norge.no/vocabulary/provenance-activity-type#administrative-decision[vedtak] + 
 https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party[innhenting fra tredjepart] + 
-https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-user[innhenting fra brukeren]
+https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-user[innhenting fra brukeren] + 
+https://data.norge.no/vocabulary/provenance-activity-type#ai-creation[KI-generering]
 | sist oppdatert | dct:modified |  2024-08-12
 | språk | dct:language | http://publications.europa.eu/resource/authority/language/NOB[bokmål] + 
 http://publications.europa.eu/resource/authority/language/ENG[engelsk]
@@ -141,4 +142,4 @@ Aktivitet (prov:Activity)
 | xsd | http://www.w3.org/2001/XMLSchema#
 |===
 
-// End of the file, 2024-08-12 16:16:47
+// End of the file, 2026-05-22 16:16:03

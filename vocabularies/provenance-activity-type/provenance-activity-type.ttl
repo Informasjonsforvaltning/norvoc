@@ -25,7 +25,8 @@
    schema:validFrom "2023-01-25"^^xsd:date;
    uneskos:contains <https://data.norge.no/vocabulary/provenance-activity-type#administrative-decision>,
        <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party>,
-       <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-user>;
+       <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-user>,
+       <https://data.norge.no/vocabulary/provenance-activity-type#ai-creation>;
    dct:modified "2024-08-12"^^xsd:date;
    dct:language <http://publications.europa.eu/resource/authority/language/NOB>,
        <http://publications.europa.eu/resource/authority/language/ENG>;
@@ -101,4 +102,4 @@
    vcard:hasEmail "informasjonsforvaltning@digdir.no"^^xsd:anyURI;
    .
  
-#### End of the file, 2024-08-12 16:16:39
+#### End of the file, 2026-05-22 16:15:57
