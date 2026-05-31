@@ -29,7 +29,7 @@ jobs:
           shellcommand: "asciidoctor -a data-uri -o vocabularies/requirement-type/requirement-type-en.html -a lang=en vocabularies/requirement-type/main-en.adoc"
 
       - name: Upload files to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@84beeeacd364f310ef6a253bc079354cdf62e5dd
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@f9b41f11e07006762215dbd80a6e09b97834f93c
         id: upload-files
         with:
           host: "https://data.norge.no"
