@@ -14,7 +14,6 @@ on:
 jobs:
   adoc_build_and_upload_files:
     name: Upload vocabulary to static-rdf-server
-    # Prevent a workflow_dispatch from a non-main branch from publishing to data.norge.no.
     if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/main'
     uses: Informasjonsforvaltning/workflows/.github/workflows/specification-upload-files.yaml@main
     with:
