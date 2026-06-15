@@ -9,35 +9,23 @@ on:
       - main
     paths:
       - vocabularies/level-of-certification/**
+  workflow_dispatch:
 
 jobs:
   adoc_build_and_upload_files:
-    runs-on: ubuntu-latest
-    name: asciidoctor build
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-      - name: Build html bokmål
-        id: adocbuild-nb
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor -a data-uri -o vocabularies/level-of-certification/level-of-certification-nb.html -a lang=nb vocabularies/level-of-certification/main-nb.adoc"
-      - name: Build html english
-        id: adocbuild-en
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor -a data-uri -o vocabularies/level-of-certification/level-of-certification-en.html -a lang=en vocabularies/level-of-certification/main-en.adoc"
-
-      - name: Upload files to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@84beeeacd364f310ef6a253bc079354cdf62e5dd
-        id: upload-files
-        with:
-          host: "https://data.norge.no"
-          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
-          ontology-type: "vocabulary"
-          ontology: "level-of-certification"
-          files: |
-            vocabularies/level-of-certification/level-of-certification.ttl text/turtle en
-            vocabularies/level-of-certification/level-of-certification-nb.html text/html nb
-            vocabularies/level-of-certification/level-of-certification-en.html text/html en
-            
+    name: Upload vocabulary to static-rdf-server
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/main'
+    uses: Informasjonsforvaltning/workflows/.github/workflows/specification-upload-files.yaml@main
+    with:
+      program_html: |
+        asciidoctor -a data-uri -o vocabularies/level-of-certification/level-of-certification-nb.html -a lang=nb vocabularies/level-of-certification/main-nb.adoc
+        asciidoctor -a data-uri -o vocabularies/level-of-certification/level-of-certification-en.html -a lang=en vocabularies/level-of-certification/main-en.adoc
+      host: https://data.norge.no
+      ontology: level-of-certification
+      ontology-type: vocabulary
+      files: |
+        vocabularies/level-of-certification/level-of-certification.ttl text/turtle en
+        vocabularies/level-of-certification/level-of-certification-nb.html text/html nb
+        vocabularies/level-of-certification/level-of-certification-en.html text/html en
+    secrets:
+      STATIC_RDF_SERVER_API_KEY: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
