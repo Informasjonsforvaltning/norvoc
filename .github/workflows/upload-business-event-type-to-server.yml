@@ -9,35 +9,24 @@ on:
       - main
     paths:
       - vocabularies/business-event-type/**
+  workflow_dispatch:
 
 jobs:
-  adoc_build_and_uploading_of_file:
-    runs-on: ubuntu-latest
-    name: asciidoctor build and uploading of files
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-      - name: Build html bokmål
-        id: adocbuild-nb
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor -a data-uri -o vocabularies/business-event-type/business-event-type-nb.html -a lang=nb vocabularies/business-event-type/main-nb.adoc"
-      - name: Build html english
-        id: adocbuild-en
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor -a data-uri -o vocabularies/business-event-type/business-event-type-en.html -a lang=en vocabularies/business-event-type/main-en.adoc"
-
-      - name: Upload files nb to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@84beeeacd364f310ef6a253bc079354cdf62e5dd
-        id: upload-files
-        with:
-          ontology-type: "vocabulary"
-          ontology: "business-event-type"
-          host: "https://data.norge.no"
-          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
-          files: |
-            vocabularies/business-event-type/business-event-type.ttl text/turtle en
-            vocabularies/business-event-type/business-event-type-nb.html text/html nb
-            vocabularies/business-event-type/business-event-type-en.html text/html en
-
+  adoc_build_and_upload_files:
+    name: Upload vocabulary to static-rdf-server
+    # Prevent a workflow_dispatch from a non-main branch from publishing to data.norge.no.
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/main'
+    uses: Informasjonsforvaltning/workflows/.github/workflows/specification-upload-files.yaml@main
+    with:
+      program_html: |
+        asciidoctor -a data-uri -o vocabularies/business-event-type/business-event-type-nb.html -a lang=nb vocabularies/business-event-type/main-nb.adoc
+        asciidoctor -a data-uri -o vocabularies/business-event-type/business-event-type-en.html -a lang=en vocabularies/business-event-type/main-en.adoc
+      host: https://data.norge.no
+      ontology: business-event-type
+      ontology-type: vocabulary
+      files: |
+        vocabularies/business-event-type/business-event-type.ttl text/turtle en
+        vocabularies/business-event-type/business-event-type-nb.html text/html nb
+        vocabularies/business-event-type/business-event-type-en.html text/html en
+    secrets:
+      STATIC_RDF_SERVER_API_KEY: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}

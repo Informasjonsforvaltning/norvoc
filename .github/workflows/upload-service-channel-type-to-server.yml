@@ -9,35 +9,24 @@ on:
       - main
     paths:
       - vocabularies/service-channel-type/**
+  workflow_dispatch:
 
 jobs:
   adoc_build_and_upload_files:
-    runs-on: ubuntu-latest
-    name: asciidoctor build
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-      - name: Build html bokmål
-        id: adocbuild-nb
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor -a data-uri -o vocabularies/service-channel-type/service-channel-type-nb.html -a lang=nb vocabularies/service-channel-type/main-nb.adoc"
-      - name: Build html english
-        id: adocbuild-en
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor -a data-uri -o vocabularies/service-channel-type/service-channel-type-en.html -a lang=en vocabularies/service-channel-type/main-en.adoc"
-
-      - name: Upload files to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@84beeeacd364f310ef6a253bc079354cdf62e5dd
-        id: upload-files
-        with:
-          host: "https://data.norge.no"
-          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
-          ontology-type: "vocabulary"
-          ontology: "service-channel-type"
-          files: |
-            vocabularies/service-channel-type/service-channel-type.ttl text/turtle en
-            vocabularies/service-channel-type/service-channel-type-nb.html text/html nb
-            vocabularies/service-channel-type/service-channel-type-en.html text/html en
-            
+    name: Upload vocabulary to static-rdf-server
+    # Prevent a workflow_dispatch from a non-main branch from publishing to data.norge.no.
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/main'
+    uses: Informasjonsforvaltning/workflows/.github/workflows/specification-upload-files.yaml@main
+    with:
+      program_html: |
+        asciidoctor -a data-uri -o vocabularies/service-channel-type/service-channel-type-nb.html -a lang=nb vocabularies/service-channel-type/main-nb.adoc
+        asciidoctor -a data-uri -o vocabularies/service-channel-type/service-channel-type-en.html -a lang=en vocabularies/service-channel-type/main-en.adoc
+      host: https://data.norge.no
+      ontology: service-channel-type
+      ontology-type: vocabulary
+      files: |
+        vocabularies/service-channel-type/service-channel-type.ttl text/turtle en
+        vocabularies/service-channel-type/service-channel-type-nb.html text/html nb
+        vocabularies/service-channel-type/service-channel-type-en.html text/html en
+    secrets:
+      STATIC_RDF_SERVER_API_KEY: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
