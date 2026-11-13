@@ -1,0 +1,31 @@
+name: high-value-dataset-type adocbuild and upload files to server
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - vocabularies/high-value-dataset-type/**
+  workflow_dispatch:
+
+jobs:
+  adoc_build_and_upload_files:
+    name: Upload vocabulary to static-rdf-server
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/main'
+    uses: Informasjonsforvaltning/workflows/.github/workflows/specification-upload-files.yaml@main
+    with:
+      program_html: |
+        asciidoctor -a data-uri -o vocabularies/high-value-dataset-type/high-value-dataset-type-nb.html -a lang=nb vocabularies/high-value-dataset-type/main-nb.adoc
+        asciidoctor -a data-uri -o vocabularies/high-value-dataset-type/high-value-dataset-type-en.html -a lang=en vocabularies/high-value-dataset-type/main-en.adoc
+      host: https://data.norge.no
+      ontology: high-value-dataset-type
+      ontology-type: vocabulary
+      files: |
+        vocabularies/high-value-dataset-type/high-value-dataset-type.ttl text/turtle en
+        vocabularies/high-value-dataset-type/high-value-dataset-type-nb.html text/html nb
+        vocabularies/high-value-dataset-type/high-value-dataset-type-en.html text/html en
+    secrets:
+      STATIC_RDF_SERVER_API_KEY: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
